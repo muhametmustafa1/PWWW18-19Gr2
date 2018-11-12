@@ -1,0 +1,9 @@
+*{
+  margine: 0;
+  padding 0;
+}
+body {
+	color: white;
+	background-color: #2a2925;
+	text-align: justify;
+}
