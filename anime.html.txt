@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 <html lang="en" dir="ltr">
+=======
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    
+  </body>
+</html>
+>>>>>>> 831d6108e63454fb4bb5098185108f197d00e94b
