@@ -1,9 +1,210 @@
-*{
-  margine: 0;
-  padding 0;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+	margin: 0;
+	padding: 0;
 }
 body {
 	color: white;
 	background-color: #2a2925;
 	text-align: justify;
+	
+}
+body header {
+	margin: 0px;
+	margin-bottom: 10px;
+	font-family: "Georgia";
+    border: 3px solid red;
+    padding: 20px 20px;
+}
+.alignleft {
+	float: left;
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 20px;
+}
+.alignright {
+	float: right;
+}
+
+#Search {
+	float: right;
+	height: 25px;
+}
+.buttonN{
+	width: 80px;
+	background-color: #95a60a;
+	color: white;
+	font-weight: bold;
+
+}
+
+#TopNavi {
+	float: right;
+	width:100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+    border: 3px solid red;
+}
+
+#TopNavi ul {
+	margin: 0px;
+	padding: 20px;
+	list-style: none;
+}
+#TopNavi ul li {
+	float: right;
+	width: 200px;
+	height: 40px;
+	font-family: "Verdana";
+	font-size: 13px;
+	text-align: center;
+}
+#TopNavi ul li a {
+	color: white;
+	text-decoration: none;
+	
+}
+/*#TopNavi ul li a:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}*/
+#TopNavi ul li a:hover {
+	color: #95a60a;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	text-underline-position: under;
+	border-bottom-width: 2px;
+}
+body #intro{
+	margin: 0;
+	height:400px;
+	padding: 30px 20px;
+	background-color: #95a60a;
+	border: 3px solid red;
+}
+#intro #forParagraf{
+	height:390px;
+	width:48%;
+	float:left;
+	border: 3px solid red;
+}
+#intro #forParagraf p{
+	color:black;
+}
+
+#largImage{
+  	position: relative;
+  	bottom: 0;
+  	right: 0;
+}
+
+#intro #forInfo{
+	height:390px;
+	width:48%;
+	float:right;
+	border: 3px solid red;
+}
+#forImages{
+	clear: both;
+}
+#forImages ul li{
+	width:25%;
+	list-style: none;
+	float:right;
+}
+#forText{
+	clear: both;
+	border: 3px solid red;
+	padding: 20px;
+
+}
+#text{
+	height:52%;
+	width:48%;
+	float:left;
+	position:relative;
+	border: 3px solid red;
+}
+#continueElement{
+	position: absolute;
+    bottom: 0px;
+    right: 0;
+    border: 3px solid red;
+}
+#photo{
+	width:48%;
+	float:right;
+	border: 3px solid red;
+}
+body #Content{
+	clear: both;
+	background: #e4dfc8;
+	padding: 20;
+	border: 3px solid red;
+}
+body #Content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#Content #Element{
+	float: left;
+    width: 31.5%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+	border: 3px solid red;
+}
+#Content #Element h4{
+	color: black;
+}
+#Content #Element p{
+	color: black;
+}
+footer{
+	clear: both;
+	padding: 20px;
+	background-color: #2a2925;
+	border: 3px solid red;
+}
+footer #NewsLetter{
+	float: left;
+	width: 31.5%;
+    padding-top: 24px;
+    border: 3px solid red;
+
+}
+footer #NewsContent{
+	padding: 20px;
+	border: 3px solid red;
+}
+footer #NewsContent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#NewsContent #Element{
+	float: left;
+    width: 20.5%;
+	border: 3px solid red;
+}
+
+#CopyRight{
+	clear: both;
+	padding: 20px 20px 40px 20px;
+	background-color: #1f1f1f; 
+}
+.pL{
+	float:left;
+}
+.pR{
+	float:right;
 }
