@@ -1,0 +1,39 @@
+body {
+	color: white;
+	background-color:  #2a2925;
+	text-align: justify;
+
+}
+h2 {
+background-color: #00000;
+color: #95a60a;
+font=font-family: arial;
+}
+table  {
+  width: auto;
+  border: 3px solid black;
+  background-color: #95a60a;
+  color: black;
+  margin: auto;
+}
+table .allMovies .movieTitle {
+width: auto;
+align: center;
+ margin: 5PX;
+}
+table .allMovies a{
+  width: 100%;
+  font-family: monospace;
+    text-decoration: none;
+     font-weight: bold;
+  color: black;
+  font-size: 27px;
+  display: inline-block;
+
+
+}
+table .allMovies a:hover{
+  background-color: black;
+  size: 40px;
+  color: #95a60a;
+}
