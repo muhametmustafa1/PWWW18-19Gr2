@@ -159,10 +159,10 @@ body #Content:after {
 }
 #NewsContent .Element{
 	float: left;
-    width: 31.5%;
+    width: 21.9%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-	
+	line-height: 1.5em;
 }
 #NewsContent #Element h4{
 	color: black;
@@ -173,7 +173,7 @@ body #Content:after {
 footer{
 	clear: both;
 	padding: 20px;
-	background-color: #2a2925;
+	background-color:#CEC5A3;
 	border: 3px solid red;
 }
 footer #NewsLetter{
@@ -185,17 +185,16 @@ footer #NewsLetter{
 }
 footer #NewsContent{
 	padding: 20px;
-	border: 3px solid red;
+	/*border: 3px solid red;*/
 }
 footer #NewsContent:after {
     content: "";
     display: table;
     clear: both;
 }
-#NewsContent #Element{
-	float: left;
-    width: 20.5%;
-	border: 3px solid red;
+
+#NewsContent p, h4, hr {
+	color: #2a2925;
 }
 
 #CopyRight{
@@ -215,9 +214,10 @@ footer #NewsContent:after {
 #contactUs {
 	width: 30%;
 	height: 600px;
-	border: 2px solid red;
-	background-color: #95a60a;
+	/*border: 2px solid red;*/
+	/*background-color: #95a60a;*/
 	padding: 12px;
+	float: left;
 }
 
 #formContent input {
