@@ -15,11 +15,14 @@ table  {
   background-color: #95a60a;
   color: black;
   margin: auto;
+	padding: 5px;
+
 }
 table .allMovies .movieTitle {
 width: auto;
 align: center;
  margin: 5PX;
+ text-align: center;
 }
 table .allMovies a{
   width: 100%;
@@ -28,7 +31,6 @@ table .allMovies a{
      font-weight: bold;
   color: black;
   font-size: 27px;
-  display: inline-block;
 
 
 }
