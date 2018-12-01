@@ -39,3 +39,21 @@ table .allMovies a:hover{
   size: 40px;
   color: #95a60a;
 }
+
+#siteHeader {
+    float: none !important;
+    max-width: 90% !important;
+}
+
+.logo small {
+    margin-bottom: 20px;
+}
+
+.button {
+    color: black !important;
+    background-color: #95a60a;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: sans-serif;
+}

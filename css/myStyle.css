@@ -45,7 +45,7 @@ header siteHeader {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-    border: 3px solid red;
+    border-bottom: 3px solid #95a60a;
 }
 
 #siteHeader ul {
