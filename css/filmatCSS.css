@@ -57,3 +57,17 @@ table .allMovies a:hover{
     font-weight: bold;
     font-family: sans-serif;
 }
+
+#inputSearch {
+    height: 26px;
+    border-radius: 10px;
+    background-color: #95a60a;
+    border: 1px solid #95a60a;
+    margin-top: 7px;
+}
+
+#searchButton {
+    height: 26px;
+    border-radius: 10px;
+    border: 1px solid #95a60a;
+}
