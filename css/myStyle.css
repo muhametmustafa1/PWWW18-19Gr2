@@ -9,13 +9,13 @@ body {
 	color: white;
 	background-color: #2a2925;
 	text-align: justify;
-	
+
 }
 header #siteHeader {
 	margin: 0px;
 	margin-bottom: 10px;
 	font-family: "Georgia";
-    
+
     padding: 20px 20px;
 }
 .logo {
@@ -64,7 +64,7 @@ header #siteHeader {
 #siteHeader ul li a {
 	color: white;
 	text-decoration: none;
-	
+
 }
 /*#TopNavi ul li a:after {
     content: '';
@@ -149,13 +149,20 @@ body #intro{
 body #Content{
 	clear: both;
 	background: #e4dfc8;
-	padding: 20;
+	padding: 20px;
 	border: 3px solid red;
+	height: 350px;
 }
 body #Content:after {
     content: "";
     display: table;
     clear: both;
+}
+#Content .Element {
+	text-align: justify;
+	width:33%;
+	height: 350px;
+
 }
 #NewsContent .Element{
 	float: left;
@@ -200,7 +207,7 @@ footer #NewsContent:after {
 #CopyRight{
 	clear: both;
 	padding: 20px 20px 40px 20px;
-	background-color: #1f1f1f; 
+	background-color: #1f1f1f;
 }
 .pL{
 	float:left;
