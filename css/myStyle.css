@@ -11,7 +11,7 @@ body {
 	text-align: justify;
 	
 }
-header siteHeader {
+header #siteHeader {
 	margin: 0px;
 	margin-bottom: 10px;
 	font-family: "Georgia";
@@ -86,7 +86,7 @@ header siteHeader {
 }
 body #intro{
 	margin: 0;
-	height:400px;
+	height: auto;
 	padding: 30px 20px;
 	background-color: #95a60a;
 	border: 3px solid red;
