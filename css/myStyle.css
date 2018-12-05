@@ -57,7 +57,7 @@ header #siteHeader {
 }
 #siteHeader ul li {
 	float: right;
-	width: 200px;
+	width: 15%;
 	height: 40px;
 	font-family: "Verdana";
 	font-size: 13px;
