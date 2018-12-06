@@ -159,6 +159,9 @@ body #Content:after {
     display: table;
     clear: both;
 }
+#NewsContent p, h4, hr {
+	
+}
 #Content .Element {
 	text-align: justify;
 	width:33%;
@@ -167,21 +170,21 @@ body #Content:after {
 }
 #NewsContent .Element{
 	float: left;
-    width: 21.9%;
+    width: 20%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
 	line-height: 1.5em;
 }
 #NewsContent .Element h4{
-	color: black;
+	color: white;
 }
 #NewsContent .Element p{
-	color: black;
+	color: green;
 }
 footer{
 	clear: both;
 	padding: 20px;
-	background-color:#CEC5A3;
+	
 	border: 3px solid red;
 }
 footer #NewsLetter{
@@ -201,10 +204,6 @@ footer #NewsContent:after {
     clear: both;
 }
 
-#NewsContent p, h4, hr {
-	color: #2a2925;
-}
-
 #CopyRight{
 	clear: both;
 	padding: 20px 20px 40px 20px;
@@ -215,57 +214,4 @@ footer #NewsContent:after {
 }
 .pR{
 	float:right;
-}
-
-/* contact us div style */
-
-#contactUs {
-	width: 30%;
-	height: 600px;
-	/*border: 2px solid red;*/
-	/*background-color: #95a60a;*/
-	padding: 12px;
-	float: left;
-}
-
-#formContent input {
-	width: 95%;
-	padding: 5px;
-}
-
-#formContent {
-	margin-top: 10px;
-}
-
-
-#contactUs h2 {
-	color: #2a2925;
-}
-
-.underLine {
-	border-bottom: 1px solid #2a2925;
-	margin-top: 8px;
-}
-
-#nameContactUs {
-	float: left;
-	width: 45%;
-	overflow: hidden;
-}
-
-#emailContactUs {
-	float: right;
-	width: 45%;
-	overflow: hidden;
-
-}
-
-#messageContactUs {
-	margin-top: 10px;
-}
-
-#inputSubmitReset input {
-	width: 100px;
-	height: 30px;
-	margin-top: 10px;
 }
