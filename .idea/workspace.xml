@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4aadf0e-a343-4412-98c7-cd520e13e335" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/filmatCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/filmatCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filmat.html" beforeDir="false" afterPath="$PROJECT_DIR$/filmat.html" afterDir="false" />
-    </list>
+    <list default="true" id="f4aadf0e-a343-4412-98c7-cd520e13e335" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,7 +15,7 @@
     <session id="1861082489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -76,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/filmatCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+            <state relative-caret-position="169">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -183,16 +179,15 @@
       <workItem from="1543365960762" duration="1593000" />
       <workItem from="1543376576242" duration="3475000" />
       <workItem from="1543620711471" duration="3163000" />
-      <workItem from="1543900704249" duration="433000" />
+      <workItem from="1543900704249" duration="1156000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8664000" />
+    <option name="totallyTimeSpent" value="9387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25818777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -243,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/filmatCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="169">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
         </state>
       </provider>
     </entry>
