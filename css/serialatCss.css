@@ -13,9 +13,15 @@
 }
 
 .allSeries:hover {
-    box-shadow: 0 3px 7px 0 red, 0 5px 18px 0 red;
+    box-shadow: 0 3px 7px 0 grey, 0 5px 18px 0 grey;
 
 }
+
+.seriesTitle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .seriesTitle, .seriesEpisodes {
     padding: 5px;
 }
@@ -26,4 +32,14 @@
     background: gray;
     color: #ededed;
     cursor: pointer;
+}
+
+table tr td {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
