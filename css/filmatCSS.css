@@ -4,70 +4,49 @@ body {
 	text-align: justify;
 
 }
+body a {
+	text-decoration: none;
+	color: white;
+}
 h2 {
-background-color: #00000;
+	font-size: 30px;
+	font-weight: bold;
 color: #95a60a;
-font-family: arial;
+font-family: "Trebuchet MS";
 }
 table  {
   width: auto;
-  border: 3px solid black;
-  background-color: #95a60a;
-  color: black;
+/**  border: 3px solid black; **/
   margin: auto;
-	padding: 5px;
+	/**padding: 5px; **/
 
 }
 table .allMovies .movieTitle {
+	font-family: "Trebuchet MS";
+
 width: auto;
-align: center;
  margin: 5PX;
  text-align: center;
 }
 table .allMovies a{
-  width: 100%;
-  font-family: monospace;
     text-decoration: none;
      font-weight: bold;
-  color: black;
+  color: #95a60a;
   font-size: 27px;
 
 
 }
+
+table tr td {
+    padding: 12px;
+    margin-top: 10px;
+}
 table .allMovies a:hover{
-  background-color: black;
+  background-color: #95a60a;
   size: 40px;
-  color: #95a60a;
+  color: black;
 }
+.movieThumbnail:hover {
+    box-shadow: 0 5px 7px 0 #95a60a;
 
-#siteHeader {
-    float: none !important;
-    max-width: 90% !important;
-}
-
-.logo small {
-    margin-bottom: 20px;
-}
-
-.button {
-    color: black !important;
-    background-color: #95a60a;
-    padding: 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-
-#inputSearch {
-    height: 26px;
-    border-radius: 10px;
-    background-color: #95a60a;
-    border: 1px solid #95a60a;
-    margin-top: 7px;
-}
-
-#searchButton {
-    height: 26px;
-    border-radius: 10px;
-    border: 1px solid #95a60a;
 }
