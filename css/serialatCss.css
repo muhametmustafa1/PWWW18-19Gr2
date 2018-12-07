@@ -1,0 +1,29 @@
+.seriesTitle {
+    color:  #d6d6d6;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.allSeries {
+    /*padding: 20px;*/
+    margin-left: auto;
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+.allSeries:hover {
+    box-shadow: 0 3px 7px 0 red, 0 5px 18px 0 red;
+
+}
+.seriesTitle, .seriesEpisodes {
+    padding: 5px;
+}
+
+.seriesEpisodes select {
+    height: 25px;
+    width: 90px;
+    background: gray;
+    color: #ededed;
+    cursor: pointer;
+}
