@@ -9,20 +9,33 @@
 </head>
 <body>
 
-    <header><!-- Defining the header section of the page -->
-        <div class="header">
-            <div class="social_icons">
-                <a href="#" title="Facebook"><img alt="" src="images/facebook.png"></a>
-                <a href="#" title="Twitter"><img alt="" src="images/twitter.png"></a>
+    <header>
+        <div id="siteHeader"> <!-- Pjesa statike -->
+            <div class="logo">
+                
+                
+                <figure>
+                  <img src="images/logo.png" width="70px" height="70px" alt="Logo nuk u gjet!" />
+                  <figcaption>Kinemaja ne shtepin tuaj</figcaption>
+                </figure>
+            
+            </div>
 
+            <div class="rightSideBar">
+                <div class="Search">
+                    <input type="text" placeholder="Search this website..." />
+                    <input class="buttonN" type="submit" value="Search">
+                </div><br /><br />
+
+                <div id="pagesMenu">
+                            <ul>
+                                <li> <a href="filmat.html">Filma</a> </li>
+                                <li> <a href="serialet.html">Seriale</a> </li>
+                                <li> <a href="#">Products</a> </li>
+                                <li> <a href="#">Gallery</a> </li>
+                            </ul>
+                </div>
             </div>
-            <div class="search">
-                <form action="" method="get">
-                    <input type="text" name="q" value="" />
-                    <input type="submit" value="search" />
-                </form>
-            </div>
-            <div class="clear"></div>
         </div>
     </header>
 
