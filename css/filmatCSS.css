@@ -8,6 +8,12 @@ body a {
 	text-decoration: none;
 	color: white;
 }
+table caption{
+	font-size: 30px;
+	font-weight: bold;
+color: #95a60a;
+font-family: "Trebuchet MS";
+}
 h2 {
 	font-size: 30px;
 	font-weight: bold;
@@ -21,10 +27,13 @@ table  {
 	/**padding: 5px; **/
 
 }
+table .allMovies .movieThumbnail{
+/**	height: 400px;  *//
+}
 table .allMovies .movieTitle {
 	font-family: "Trebuchet MS";
-
-width: auto;
+height: auto;
+width: 280px;
  margin: 5PX;
  text-align: center;
 }
@@ -39,7 +48,7 @@ table .allMovies a{
 
 table tr td {
     padding: 12px;
-    margin-top: 10px;
+
 }
 table .allMovies a:hover{
   background-color: #95a60a;
