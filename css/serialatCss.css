@@ -2,18 +2,21 @@
     color:  #d6d6d6;
     font-weight: bolder;
     font-size: 20px;
+}
+
+.textFont {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 .allSeries {
     /*padding: 20px;*/
     margin-left: auto;
-    border: 1px solid gray;
+    border: 2px solid gray;
     margin-left: 10px;
 }
 
 .allSeries:hover {
-    box-shadow: 0 3px 7px 0 grey, 0 5px 18px 0 grey;
+    box-shadow: 0 3px 7px 0 #4CAF50, 0 5px 18px 0 #4CAF50;
 
 }
 
@@ -34,6 +37,10 @@
     cursor: pointer;
 }
 
+.seriesEpisodes select:hover {
+    box-shadow: 0 1px 15px 0 #4CAF50, 0 1px 2px 0 #4CAF50;
+}
+
 table tr td {
     padding: 5px;
     margin-top: 10px;
@@ -42,4 +49,33 @@ table tr td {
 table {
     margin-left: auto;
     margin-right: auto;
+}
+
+#goButton {
+    background: #4CAF50;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+}
+
+#NewsLetter {
+    border: none !important;
+    margin-top: 12px;
+}
+
+.topMargin {
+    margin-top: 7px;
+}
+
+.contentNews small {
+    margin-top: 7px;
+    position: absolute;
+}
+
+.topMargin2 {
+    margin-top: 12px;
+}
+.NewsletterT {
+    height: 23px;
+    width: 228px;
 }
