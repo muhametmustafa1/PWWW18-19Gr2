@@ -71,7 +71,7 @@ header #siteHeader {
 	word-break: keep-all;
 	vertical-align: middle;
 }
-.logo figure {
+.logo .figureSyle {
 	float: right;
 	font-family: "Raleway";
 	font-weight: bold;
@@ -106,7 +106,7 @@ figure {
 figure img {
     display: block;
 }
-figcaption {
+.figureSyle figcaption {
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 0px black, 0 0 5px blue, 0 0 55px darkblue;
     box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);
