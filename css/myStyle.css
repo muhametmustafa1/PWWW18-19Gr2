@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+@keyframes blinkAnimation
+            {	
+            	0% {color: #00FFFF; margin-left:0px; margin-top:0px;}
+            	45% {color: #00FFFF; margin-left:0px; margin-top:0px;}
+            	50% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
+                55% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
+                60% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 5px;box-shadow: 8px 8px 30px rgba(240, 240, 240, .9);}
+                62.5% {color: #00007F; margin-left:50px; margin-top:20px;background-color: #007FFF;border-radius: 20px;}
+                65% {color: #0000FF; margin-left:0px; margin-top:20px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);}
+                67.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;padding: 20px 10px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
+                90% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.9;}
+                95% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.0;}
+                96% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.9;}
+                100% {color: #00FFFF; margin-left:0px; margin-top: 0px;}
+            }
+            
+@-webkit-keyframes animacioniJone
+            {
+                0% {color: #00FFFF; margin-left:0px; margin-top:0px;}
+            	35% {color: #00FFFF; margin-left:0px; margin-top:0px;}
+            	50% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #0000FF;}
+                65% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;}
+                75% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #0000FF;}
+                80% {color: #00007F; margin-left:50px; margin-top:20px;background-color: #00FFFF;}
+                85% {color: #0000FF; margin-left:0px; margin-top:20px;background-color: #007FFF;}
+                90% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;}
+            }
+
+
 * {
 	margin: 0;
 	padding: 0;
@@ -11,6 +40,9 @@ body {
 	text-align: justify;
 
 }
+div {
+  /*border: 3px solid #4CAF50;*/
+}
 header #siteHeader {
 	margin: 0px;
 	margin-bottom: 10px;
@@ -19,13 +51,42 @@ header #siteHeader {
 	margin-left: auto;
 	margin-right: auto;
     border: 3px solid red;
+    font-family: "DomaineDisplayNarrow",Georgia,serif;
 }
 .logo {
 	float: left;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 50px 10px 50px;
 	margin-bottom: 20px;
-	border: 3px solid red;
 }
+.logo small {
+	float: right;
+	font-family: "Raleway";
+	font-weight: bold;
+	padding: 20px 10px;
+	color: #2a2925;
+	border-radius: 25px;
+	text-shadow: -2px 2px 4px black, 0 0 5px blue, 0 0 55px darkblue;
+	opacity: 0.9;
+	animation-name: blinkAnimation;
+                animation-duration: 28s;
+                animation-timing-function: linear;
+                animation-delay: 1s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+                animation: running;
+/*Safari dhe Chrome*/
+-webkit-animation-name: blinkAnimation;
+                -webkit-animation-duration: 28s;
+                -webkit-animation-timing-function: linear;
+                -webkit-animation-delay: 1s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-direction: alternate;
+                -webkit-animation-play-state: running;
+
+	word-break: keep-all;
+	vertical-align: middle;
+}
+
 .rightSideBar{
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 20px;
