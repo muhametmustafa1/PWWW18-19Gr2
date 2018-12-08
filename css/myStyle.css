@@ -4,17 +4,17 @@
 @keyframes blinkAnimation
             {	
             	0% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	45% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	50% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
-                55% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
-                60% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 5px;box-shadow: 8px 8px 30px rgba(240, 240, 240, .9);}
-                62.5% {color: #00007F; margin-left:50px; margin-top:20px;background-color: #007FFF;border-radius: 20px;}
-                65% {color: #0000FF; margin-left:0px; margin-top:20px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);}
-                67.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
-                90% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.9;}
-                95% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.0;}
-                96% {color: #00FFFF; margin-left:0px; margin-top: 0px;opacity: 0.9;}
-                100% {color: #00FFFF; margin-left:0px; margin-top: 0px;}
+            	50% {color: #00FFFF; margin-left:0px; margin-top:0px;}
+            	53% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
+                56% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
+                59% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 5px;box-shadow: 8px 8px 30px rgba(240, 240, 240, .9);}
+                61.5% {color: #00007F; margin-left:50px; margin-top:20px;background-color: #007FFF;border-radius: 20px;}
+                63% {color: #0000FF; margin-left:0px; margin-top:20px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);}
+                64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
+                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.9;}
+                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;}
+                96% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.9;}
+                100% {color: #2a2925; margin-left:0px; margin-top: 0px;}
             }
             
 @-webkit-keyframes animacioniJone
@@ -84,7 +84,7 @@ header #siteHeader {
                 animation: running;
 /*Safari dhe Chrome*/
 -webkit-animation-name: blinkAnimation;
-                -webkit-animation-duration: 28s;
+                -webkit-animation-duration: 36s;
                 -webkit-animation-timing-function: linear;
                 -webkit-animation-delay: 1s;
                 -webkit-animation-iteration-count: infinite;
