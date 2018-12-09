@@ -7,15 +7,15 @@
             	50% {color: #00FFFF; margin-left:0px; margin-top:0px;}
             	53% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
                 56% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
-                57% {color: #00FFFF; margin-left:0px; margin-top:-5px;background-color: #2a2925;border-radius: 15px;}
-                59% {color: #007FFF; margin-left:150px; margin-top:-5px;background-color: #00007F;border-radius: 5px;box-shadow: 6px 6px 25px rgba(240, 240, 240, .9);border-color: #000020;}
+                57% {color: #00FFFF; margin-left:0px; margin-top:-5px;background-color: #2a2925;border-radius: 15px;border-color: rgba(0, 0, 34, 1.0);}
+                59% {color: #007FFF; margin-left:150px; margin-top:-5px;background-color: #00007F;border-radius: 5px;box-shadow: 6px 6px 25px rgba(240, 240, 240, .9);}
                 61.5% {color: #00007F; margin-left:150px; margin-top:10px;background-color: #007FFF;border-radius: 20px;}
                 63% {color: #0000FF; margin-left:0px; margin-top:10px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);border-color: rgba(0, 0, 34, 0.0);}
-                64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
-                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1; border-color: rgba(0, 0, 34, 1.0);}
-                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;border-color: #2a2925;}
+                64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, 0.0);}
+                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
+                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;}
                 96% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                100% {color: #2a2925; margin-left:0px; margin-top: 0px;border-color: #000020;}
+                100% {color: #2a2925; margin-left:0px; margin-top: 0px;border-color: rgba(0, 0, 34, 0.0);}
             }
             
 @-webkit-keyframes animacioniJone
@@ -73,7 +73,7 @@ header #siteHeader {
 	font-family: "Raleway";
 	font-weight: bold;
 	position: absolute;
-	border: 2px #2a2925;
+	border: 2px rgba(0, 0, 34, 0.0);
 	border-style: dotted solid dashed double;
 	padding: 10px 10px 30px 10px;
 	color: #2a2925;
