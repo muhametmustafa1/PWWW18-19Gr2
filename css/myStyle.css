@@ -12,10 +12,10 @@
                 61.5% {color: #00007F; margin-left:150px; margin-top:10px;background-color: #007FFF;border-radius: 20px;}
                 63% {color: #0000FF; margin-left:0px; margin-top:10px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);}
                 64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
-                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;}
+                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1; border-color: #000020;}
+                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;border-color: #2a2925;}
                 96% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                100% {color: #2a2925; margin-left:0px; margin-top: 0px;}
+                100% {color: #2a2925; margin-left:0px; margin-top: 0px;border-color: #000020;}
             }
             
 @-webkit-keyframes animacioniJone
@@ -62,20 +62,19 @@ header #siteHeader {
 .logo {
 	float: left;
 	padding: 10px 50px 10px 50px;
-	margin-bottom: 20px;
 	vertical-align: middle;
+	width: 100px;
+	height: 100px;
+	border: 3px solid red;
 }
-.logo small {
-	float: left;
-	width: 90px;
-	word-break: keep-all;
-	vertical-align: middle;
-}
+
 .logo .figureSyle {
 	float: right;
 	font-family: "Raleway";
 	font-weight: bold;
 	position: absolute;
+	border: 2px #000020;
+	border-style: dotted solid dashed double;
 	padding: 10px 10px 30px 10px;
 	color: #2a2925;
 	border-radius: 25px;
@@ -105,8 +104,10 @@ figure {
 }
 figure img {
     display: block;
+    
 }
 .figureSyle figcaption {
+	
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 0px black, 0 0 5px blue, 0 0 55px darkblue;
     box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);
@@ -114,7 +115,8 @@ figure img {
     padding: 5px;
     border: none;
     position: absolute;
-    bottom: 0;
+    bottom: -25;
+    object-fit: cover;
     top: 70px;
     left: 0;
     font-size: 0.8em;
@@ -147,12 +149,14 @@ figure img {
 	
 }
 #siteHeader ul {
+	float: right;
 	margin: 0px;
 	padding: 20px;
 	list-style: none;
 }
 #siteHeader ul li {
-	float: right;
+	float: left;
+	padding-right: 30px;
 	width: 15%;
 	height: 40px;
 	font-family: "Verdana";
@@ -243,61 +247,70 @@ body #intro{
 	float:right;
 	border: 3px solid red;
 }
-body #Content{
+body .Content{
 	clear: both;
 	background: #e4dfc8;
-	padding: 20px;
+	padding: 20px 0px;
 	border: 3px solid red;
 	height: 350px;
 }
-body #Content:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-#NewsContent p, h4, hr {
-	
-}
-#Content .Element {
-	text-align: justify;
-	width:33%;
-	height: 350px;
+.threeRowN{width:100%;}
+.leftN{float:left;width:100px;}
+.rightN{float:right;width:100px;}
+.centerN{margin:0 auto;width:100px;}
+body .Content:after {
 
 }
-#NewsContent .Element{
-	float: left;
-    width: 20%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+.Content p,.Content h4{
+	padding: 5px 0px;
+}
+.Content p{
+	border-top: 1px solid white;
+}
+.Element {
+	text-align: justify;
+	width:30%;
+	padding: 0px 20px;
 	line-height: 1.5em;
 }
-#NewsContent .Element h4{
-	color: white;
+.Element img {
+	width:200px;
+	height:200px;
+	border: 3px solid red;
 }
-#NewsContent .Element p{
-	color: green;
-}
+
 footer{
 	clear: both;
 	padding: 20px;
-	
 	border: 3px solid red;
 }
 footer #NewsLetter{
 	float: left;
-	width: 31.5%;
+	width: 30%;
     padding-top: 24px;
     border: 3px solid red;
 
 }
-footer #NewsContent{
-	padding: 20px;
-	/*border: 3px solid red;*/
+footer .NewsContent{
+	float: right;
+	width: 60%;
+	padding: 10px 0px;
+	border: 3px solid red;
 }
-footer #NewsContent:after {
-    content: "";
-    display: table;
-    clear: both;
+.NewsContent p,.NewsContent h4 {
+	padding: 5px 0px;
+}
+.NewsContent p{
+	border-top: 1px solid white;
+}
+.NewsContent .Element{
+	line-height: 1.5em;
+}
+.NewsContent .Element h4{
+	color: white;
+}
+.NewsContent .Element p{
+	color: green;
 }
 
 #CopyRight{
