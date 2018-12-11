@@ -101,14 +101,14 @@
   background-color: rgba(0, 0, 50, 0.9);
 
   animation-name: thankYouTxtAnimation;
-                animation-duration: 60s;
+                animation-duration: 30s;
                 animation-delay: 0s;
-                animation-iteration-count: infinite;
+                animation-iteration-count: 1;
                 animation: running;
   /*Safari dhe Chrome*/
   -webkit-animation-name: thankYouTxtAnimation;
-                -webkit-animation-duration: 60s;
+                -webkit-animation-duration: 30s;
                 -webkit-animation-delay: 0s;
-                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-iteration-count: 1;
                 -webkit-animation-play-state: running;
 }

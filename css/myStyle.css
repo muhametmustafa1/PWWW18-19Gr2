@@ -37,18 +37,18 @@ header{
 	opacity: 0.0;
 	z-index:1;
 	animation-name: thankYouBgAnimation;
-                animation-duration: 60s;
+                animation-duration: 30s;
                 animation-timing-function: ease-in-out;
                 animation-delay: 0s;
-                animation-iteration-count: infinite;
+                animation-iteration-count: 1;
                 animation-direction: normal;
                 animation: running;
 	/*Safari dhe Chrome*/
 	-webkit-animation-name: thankYouBgAnimation;
-                -webkit-animation-duration: 60s;
+                -webkit-animation-duration: 30s;
                 -webkit-animation-timing-function: ease-in-out;
                 -webkit-animation-delay: 0s;
-                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-iteration-count: 1;
                 -webkit-animation-direction: normal;
                 -webkit-animation-play-state: running;
     
