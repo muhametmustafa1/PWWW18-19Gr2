@@ -61,7 +61,7 @@ document.writeln(`<div id="siteFooter">
 					    R!n0
 					    </div>
 					</b>
-					<p>Template by </p>
+					<p>Ky website u mundesua nga:  </p>
 					</div>
 				</div>
 			</div>
