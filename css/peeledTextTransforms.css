@@ -1,0 +1,114 @@
+#siteTFCUbody p {
+  color: #fff;
+  font-family: Avenir Next, Helvetica Neue, Helvetica, Tahoma, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  
+}
+#siteTFCUbody h1 {
+  color: rgba(0,255,255,1);
+  font-family: Times new roman;
+  background-color: rgba(0,127,255,1);
+  border-radius: 25px;
+  box-shadow: -8px 8px 30px rgba(0,255,255,0.9), -8px -8px 30px rgba(0,255,255,0.8);
+  margin: 0px 30px;
+}
+
+#siteTFCUbody p span {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-perspective: 500;
+          perspective: 500;
+  -webkit-font-smoothing: antialiased;
+}
+#siteTFCUbody p span::before,
+#siteTFCUbody p span::after {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  transition: all ease-out 0.3s;
+  content: attr(data-text);
+}
+#siteTFCUbody p span::before {
+  z-index: 1;
+  color: rgba(0,0,0,0.2);
+  -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
+          transform: scale(1.1, 1) skew(0deg, 20deg);
+}
+#siteTFCUbody p span::after {
+  z-index: 2;
+  color: rgba(0, 0, 50, 0.9);
+  text-shadow: -1px 0 1px rgba(0, 0, 230, 0.9), 1px 0 1px rgba(0,127,255,1);
+  -webkit-transform: rotateY(-40deg);
+          transform: rotateY(-40deg);
+}
+#siteTFCUbody p span:hover::before {
+  -webkit-transform: scale(1.1, 1) skew(0deg, 5deg);
+          transform: scale(1.1, 1) skew(0deg, 5deg);
+}
+#siteTFCUbody p span:hover::after {
+  -webkit-transform: rotateY(-10deg);
+          transform: rotateY(-10deg);
+}
+#siteTFCUbody p span + span {
+  margin-left: 0.3em;
+}
+@media (min-width: 20em) {
+  #siteTFCUbodyp {
+    font-size: 2em;
+  }
+  #siteTFCUbody p span::before,
+  #siteTFCUbody p span::after {
+    display: block;
+  }
+}
+@media (min-width: 30em) {
+  #siteTFCUbodyp {
+    font-size: 3em;
+  }
+}
+@media (min-width: 40em) {
+  #siteTFCUbody p {
+    font-size: 5em;
+  }
+}
+@media (min-width: 60em) {
+  #siteTFCUbody p {
+    font-size: 8em;
+  }
+}
+#siteTFCUbody {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  padding-top: 50px; 
+  height: 100%;
+  opacity: 0.9;
+  border: 3px solid red;
+  z-index: 5;
+}
+#siteTFCUbody {
+  opacity: 0;
+  position:absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 50, 0.9);
+
+  animation-name: thankYouTxtAnimation;
+                animation-duration: 60s;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+                animation: running;
+  /*Safari dhe Chrome*/
+  -webkit-animation-name: thankYouTxtAnimation;
+                -webkit-animation-duration: 60s;
+                -webkit-animation-delay: 0s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-play-state: running;
+}

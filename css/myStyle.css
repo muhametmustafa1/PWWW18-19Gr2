@@ -1,40 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-@keyframes blinkAnimation
-            {	
-            	0% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	50% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	53% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
-                56% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
-                57% {color: #00FFFF; margin-left:0px; margin-top:-5px;background-color: #2a2925;border-radius: 15px;border-color: rgba(0, 0, 34, 1.0);}
-                59% {color: #007FFF; margin-left:150px; margin-top:-5px;background-color: #00007F;border-radius: 5px;box-shadow: 6px 6px 25px rgba(240, 240, 240, .9);}
-                61.5% {color: #00007F; margin-left:150px; margin-top:10px;background-color: #007FFF;border-radius: 20px;}
-                63% {color: #0000FF; margin-left:0px; margin-top:10px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);border-color: rgba(0, 0, 34, 0.0);}
-                64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, 0.0);}
-                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;}
-                96% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                100% {color: #2a2925; margin-left:0px; margin-top: 0px;border-color: rgba(0, 0, 34, 0.0);}
-            }
-            
-@-webkit-keyframes animacioniJone
-            {
-                0% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	50% {color: #00FFFF; margin-left:0px; margin-top:0px;}
-            	53% {color: #007FFF; margin-left:50px; margin-top:0px;background-color: #00007F;border-radius: 10px;}
-                56% {color: #00FFFF; margin-left:0px; margin-top:0px;background-color: #2a2925;border-radius: 15px;}
-                57% {color: #00FFFF; margin-left:0px; margin-top:-5px;background-color: #2a2925;border-radius: 15px;}
-                59% {color: #007FFF; margin-left:150px; margin-top:-5px;background-color: #00007F;border-radius: 5px;box-shadow: 6px 6px 25px rgba(240, 240, 240, .9);}
-                61.5% {color: #00007F; margin-left:150px; margin-top:10px;background-color: #007FFF;border-radius: 20px;}
-                63% {color: #0000FF; margin-left:0px; margin-top:10px;background-color: #00FFFF;border-radius: 25px;box-shadow: -8px 8px 30px rgba(240, 240, 240, .9);}
-                64.5% {color: #00FFFF; margin-left:0px; margin-top: 0px;background-color: #2a2925;box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);}
-                90% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                95% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 0.0;}
-                96% {color: #2a2925; margin-left:0px; margin-top: 0px;opacity: 1;}
-                100% {color: #2a2925; margin-left:0px; margin-top: 0px;}
-            }
-
 
 * {
 	margin: 0;
@@ -49,13 +15,53 @@ body {
 div {
   /*border: 3px solid #4CAF50;*/
 }
+header{
+	z-index:2;
+	position: relative;
+}
+#siteTFCU{
+	margin-left:0%;
+	margin-top:0%;
+	width: 99.4%;
+	height: auto;
+    opacity: 1;
+	z-index:1;
+	position: absolute;
+	
+}
+#siteTFCU:after{
+	background-color: rgba(50, 50, 50, 0.9);
+}
+#siteTFCU img {
+	width: 0%; margin-left:20%; margin-top:0px;
+	opacity: 0.0;
+	z-index:1;
+	animation-name: thankYouBgAnimation;
+                animation-duration: 60s;
+                animation-timing-function: ease-in-out;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+                animation-direction: normal;
+                animation: running;
+	/*Safari dhe Chrome*/
+	-webkit-animation-name: thankYouBgAnimation;
+                -webkit-animation-duration: 60s;
+                -webkit-animation-timing-function: ease-in-out;
+                -webkit-animation-delay: 0s;
+                -webkit-animation-iteration-count: infinite;
+                -webkit-animation-direction: normal;
+                -webkit-animation-play-state: running;
+    
+}
+
 header #siteHeader {
 	margin: 0px;
 	margin-bottom: 10px;
 	font-family: "Georgia";
-    width:100%;
+    width: 99.4%;
 	margin-left: auto;
 	margin-right: auto;
+	
     
     font-family: "DomaineDisplayNarrow",Georgia,serif;
 }
@@ -87,8 +93,8 @@ header #siteHeader {
                 animation-iteration-count: infinite;
                 animation-direction: alternate;
                 animation: running;
-/*Safari dhe Chrome*/
--webkit-animation-name: blinkAnimation;
+	/*Safari dhe Chrome*/
+	-webkit-animation-name: blinkAnimation;
                 -webkit-animation-duration: 60s;
                 -webkit-animation-timing-function: linear;
                 -webkit-animation-delay: 1s;
@@ -148,13 +154,13 @@ figure img {
 #pagesMenu{
 	
 }
-#siteHeader ul {
+#pagesMenu ul {
 	float: right;
 	margin: 0px;
 	padding: 20px;
 	list-style: none;
 }
-#siteHeader ul li {
+#pagesMenu ul li {
 	float: left;
 	padding-right: 30px;
 	width: 15%;
@@ -163,14 +169,14 @@ figure img {
 	font-size: 13px;
 	text-align: center;
 }
-#siteHeader ul li a {
+#pagesMenu ul li a {
 	color: white;
 	text-decoration: none;
 }
 /*#TopNavi ul li a:after {
     content: '';
 
-    width: 100%;
+    width: 99.99%;
     position: absolute;
     left: 0;
     bottom: 1px;
@@ -178,7 +184,7 @@ figure img {
     border-width: 0 0 1px;
     border-style: solid;
 }*/
-#siteHeader ul li a:hover {
+#pagesMenu ul li a:hover {
 	color: #95a60a;
 	padding-bottom: 10px;
 	text-decoration: underline;
@@ -190,9 +196,12 @@ body #intro{
 	height: auto;
 	padding: 30px 20px;
 	background-color: #95a60a;
+	z-index:1;
+	position: relative;
 	
 }
 #intro #forParagraf{
+	padding: 0px 10px 10px 0px;
 	height:390px;
 	width:48%;
 	float:left;
@@ -254,7 +263,7 @@ body .Content{
 	border: 3px solid red;
 	height: 350px;
 }
-.threeRowN{width:100%;}
+.threeRowN{width: 99.4%;}
 .leftN{float:left;width:100px;}
 .rightN{float:right;width:100px;}
 .centerN{margin:0 auto;width:100px;}
@@ -283,6 +292,7 @@ footer{
 	clear: both;
 	padding: 20px;
 	border: 3px solid red;
+	z-index:2;
 }
 footer #NewsLetter{
 	float: left;

@@ -1,5 +1,6 @@
 console.log("wtf");
 document.writeln('		<div id="siteHeader"> <!-- Pjesa statike -->');
+document.writeln('			<link rel="stylesheet" type="text/css" href="css/animation.css">');
 document.writeln('			<div class="logo">');
 document.writeln('			<figure class="figureSyle">');
 document.writeln('				  <img src="images/logo.png" width="70px" height="70px" alt="Logo nuk u gjet!" />');
