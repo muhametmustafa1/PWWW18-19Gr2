@@ -47,7 +47,25 @@ document.writeln(`<div id="siteFooter">
 		</div>
 
 		<div id="CopyRight">
-			<p class="pL">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
-			<p class="pR">Template by R!n0</p>
+			<p class="pL" style="border: 3px solid red;">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
+			<link rel="stylesheet" type="text/css" href="css/gooeySVGtb.css">
+			<div class="pR" style="border: 3px solid red;">
+				<div class="siteGooeyRoll">
+					<div class="Iam">
+					<b>
+					  <div class="innerIam">
+					    R!n0<br />
+					    x0n!<br />
+					    aRd!ti<br />
+					    M3t!<br />
+					    R!n0
+					    </div>
+					</b>
+					<p>Template by </p>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;">
+			</div>
 		</div>
 	</div>`);

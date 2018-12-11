@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 
 * {
@@ -27,7 +28,7 @@ header{
     opacity: 1;
 	z-index:1;
 	position: absolute;
-	
+
 }
 #siteTFCU:after{
 	background-color: rgba(50, 50, 50, 0.9);
@@ -51,7 +52,7 @@ header{
                 -webkit-animation-iteration-count: 1;
                 -webkit-animation-direction: normal;
                 -webkit-animation-play-state: running;
-    
+
 }
 
 header #siteHeader {
@@ -61,8 +62,6 @@ header #siteHeader {
     width: 99.4%;
 	margin-left: auto;
 	margin-right: auto;
-	
-    
     font-family: "DomaineDisplayNarrow",Georgia,serif;
 }
 .logo {
@@ -110,10 +109,10 @@ figure {
 }
 figure img {
     display: block;
-    
+
 }
 .figureSyle figcaption {
-	
+
     background: rgba(0, 0, 0, 0.5);
     text-shadow: 0px 0px 0px black, 0 0 5px blue, 0 0 55px darkblue;
     box-shadow: 0px 0px 0px rgba(240, 240, 240, .0);
@@ -142,7 +141,7 @@ figure img {
 	float: right;
 	padding-bottom: 10px;
 	height: 25px;
-	
+
 }
 .buttonN{
 	width: 80px;
@@ -152,7 +151,7 @@ figure img {
 
 }
 #pagesMenu{
-	
+
 }
 #pagesMenu ul {
 	float: right;
@@ -198,7 +197,7 @@ body #intro{
 	background-color: #95a60a;
 	z-index:1;
 	position: relative;
-	
+
 }
 #intro #forParagraf{
 	padding: 0px 10px 10px 0px;
