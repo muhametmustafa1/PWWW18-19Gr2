@@ -20,7 +20,7 @@ header{
 	z-index:2;
 	position: relative;
 }
-#siteTFCU{
+.siteTFCU{
 	margin-left:0%;
 	margin-top:0%;
 	width: 99.4%;
@@ -30,10 +30,10 @@ header{
 	position: absolute;
 
 }
-#siteTFCU:after{
+.siteTFCU:after{
 	background-color: rgba(50, 50, 50, 0.9);
 }
-#siteTFCU img {
+.siteTFCU img {
 	width: 0%; margin-left:20%; margin-top:0px;
 	opacity: 0.0;
 	z-index:1;

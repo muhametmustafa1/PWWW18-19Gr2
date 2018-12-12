@@ -48,9 +48,9 @@ document.writeln(`<div id="siteFooter">
 
 		<div id="CopyRight">
 			<p class="pL" style="border: 3px solid red;">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
-			<link rel="stylesheet" type="text/css" href="css/gooeySVGtb.css">
+			<link rel="stylesheet" type="text/css" href="css/verticallyRotating.css">
 			<div class="pR" style="border: 3px solid red;">
-				<div class="siteGooeyRoll">
+				<div class="siteVerticalRotate">
 					<div class="Iam">
 					<b>
 					  <div class="innerIam">

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Attitude</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+    
+</head>
+
+<body>
+<header><!-- Pjesa statike -->
+	<script type="text/javascript" src="js\siteHeader.js">
+	</script>
+	<script type="text/javascript" src="js\siteTFCU.js">
+	</script>
+</header>
+<div id="intro" style="clear: both;"><!-- Pjesa statike -->
+	<script type="text/javascript" src="js\siteCarousel.js">
+	</script>
+	<script type="text/javascript" src="js\siteCarouselScript.js">
+	</script>
+	
+	<link rel="stylesheet" type="text/css" href="css/gooeySVGtb.css">
+	<div class="siteGooeyRoll">
+		<div class="edit">Edit text below</div>
+
+		<h1>
+		    <div class="goo" contenteditable="true">This is an example of a simple headline or text with rounded corners using<br>a gooey SVG filter.</div>
+		</h1>
+
+		<!-- Filter: https://css-tricks.com/gooey-effect/ -->
+		<svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+		    <defs>
+		        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+		            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+		            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+		        </filter>
+		    </defs>
+		</svg>
+	</div>			
+
+</div>
+<footer><!-- Pjesa statike -->
+	<script type="text/javascript" src="js\siteFooter.js">
+	</script>
+</footer>
+</body>
+</html>
