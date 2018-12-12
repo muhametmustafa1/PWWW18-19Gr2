@@ -8,7 +8,7 @@ document.writeln(`<link rel="stylesheet" type="text/css" href="css/dynamicCarous
 		    </label>
 		  </p>
 		  <p>
-		  	<span style="display: block;">
+		  	<span>
 		    <button class="previous-button glowLeft" style="float:center">Previous</button>
 		    <button class="next-button glowLeft" style="float:center;">Next</button>
 		    </span>

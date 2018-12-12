@@ -33,6 +33,7 @@
 }
 
 .siteGooeyRoll {
+    margin: 0px 40px;
     padding: 7.5vh 100px 50px 100px;
     font-family: var(--font);
     background: var(--color-bg);
