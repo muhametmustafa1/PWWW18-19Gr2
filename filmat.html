@@ -39,8 +39,9 @@
         </div>
       </header>
 
-            <!--    <h2 id="filmatAksion">FILMAT AKSION: </h2> -->
-          <table>
+
+
+          <table id="tabela_f_aksion" >
             <caption>FILMAT AKSION:</caption>
           <tr>
             <td><div class="allMovies">
@@ -80,8 +81,7 @@
 
         </table>
 
-              <br><br>
-            <table>
+            <table id="tabela_f_komedi">
               <caption>FILMAT KOMEDI</caption>
               <tr>
                 <td><div class="allMovies">
@@ -110,8 +110,8 @@
                 </div></td>
               </tr>
             </table>
-              <br><br>
-              <table>
+
+              <table id="tabela_f_aventure">
                 <caption>FILMAT AVENTURE</caption>
                 <tr>
                   <td><div class="allMovies">
@@ -136,14 +136,13 @@
                     </div>
                     <div class="movieTitle">
                       <a href="http://youtube.com/watch?v=by2yMNLmCDs">National Treasure</a>
-
-
                   </div></td>
                 </tr>
               </table>
 
-              <h2 id="FilmatFantashkence">Filmat  Fantashkence: </h2>
-                <table>
+
+                <table id="tabela_f_fantashkence">
+                    <caption>FILMAT FANTASHKENCE</caption>
                   <tr>
                     <td><div class="allMovies">
                       <div class="movieThumbnail">
@@ -181,8 +180,9 @@
                   </tr>
                 </table>
 
-                <h2 id="FilmatHorror">Filmat Horror: </h2>
-                  <table>
+
+                  <table id="tabela_f_horror">
+                      <caption>FILMAT HORROR</caption>
                     <tr>
                       <td><div class="allMovies">
                         <div class="movieThumbnail">
@@ -211,8 +211,8 @@
                     </tr>
                   </table>
 
-                  <h2 id="FilmatKrim">Filmat Krim: </h2>
-                    <table>
+                    <table id="tabela_f_krim">
+                        <caption>FILMAT KRIM</caption>
                       <tr>
                         <td><div class="allMovies">
                           <div class="movieThumbnail">
@@ -241,8 +241,8 @@
                       </tr>
                     </table>
 
-                    <h2 id="FilmatDrame">Filmat Drame: </h2>
-                      <table>
+                      <table id="tabela_f_drame">
+                        <caption>FILMAT DRAME</caption>
                         <tr>
                           <td><div class="allMovies">
                             <div class="movieThumbnail">
@@ -283,9 +283,8 @@ and Cypher School at Bletchley Park, during the darkest days of World War II" wi
                         </tr>
                       </table>
 
-
-                      <h2 id="FilmatMister">Filmat Mister: </h2>
-                        <table>
+                        <table id="tabela_f_mister">
+                          <caption>FILMAT MISTER</caption>
                           <tr>
                             <td><div class="allMovies">
                               <div class="movieThumbnail">
@@ -314,10 +313,8 @@ and Cypher School at Bletchley Park, during the darkest days of World War II" wi
                           </tr>
                         </table>
 
-
-
-                      <h2 id="FilmatThriler">Filmat Thriler: </h2>
-                        <table>
+                        <table id="tabela_f_thriler">
+                            <caption>FILMAT THRILER</caption>
                           <tr>
                             <td><div class="allMovies">
                               <div class="movieThumbnail">
@@ -346,6 +343,26 @@ and Cypher School at Bletchley Park, during the darkest days of World War II" wi
                           </tr>
                         </table>
 
+        <form class="formulari" action="" method="get">
+            <fieldset>
+              <legend>Na ndihmoni ne permiresimin e faqes ketu: </legend>
+          <p> Nese keni ndonje film qe e pelqeni, mirepo nuk e gjeni ketu
+            na propozoni me poshte: </p> <br>
+            <label>Titulli i filmit:</label> <br>
+            <input type="text" name="titulli_i_filmit" placeholder="Shkruani titullin ketu">
+            <br>
+            <label > <br>A jeni te pakten 18 vjecar?</label>
+            <br>
+            <label >PO</label>
+            <input type="radio" name="mosha" value="Po">
+            <br>
+            <label>JO</label>
+            <input type="radio" name="mosha" value="Jo">
+            <br> <br>
+            <button type="submit" name="button">Kliko ketu</button>
+
+          </fieldset>
+        </form>
 
 
           </div>

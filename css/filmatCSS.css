@@ -1,53 +1,67 @@
-body {
-	color: white;
-	background-color:  #2a2925;
-	text-align: justify;
+*{
+	margin: 0px;
+	padding: 0px;
+}
 
-}
-body a {
-	text-decoration: none;
-	color: white;
-}
 table caption{
+	border-left: 3px solid black;
+	border-right: 3px solid black;
 	font-size: 30px;
 	font-weight: bold;
-color: #95a60a;
-font-family: "Trebuchet MS";
+	color: #000;
+	font-family: "Trebuchet MS";
+	background-color: #95a60a;
 }
-h2 {
-	font-size: 30px;
-	font-weight: bold;
-color: #95a60a;
-font-family: "Trebuchet MS";
-}
-table  {
-  width: auto;
-/**  border: 3px solid black; **/
-  margin: auto;
-	/**padding: 5px; **/
 
+table caption:hover {
+	background-color: black;
+	color: #95a60a;
+	cursor: context-menu;
 }
-table .allMovies .movieThumbnail{
-/**	height: 400px;  *//
+
+table {
+	background-color: black;
+	padding-top: 10PX;
+	padding-bottom: 10PX;
+  width: 100%;
+  border-left:  3px solid #95a60a;
+	border-right:  3px solid #95a60a;
+  margin-bottom: 0px;
 }
+
+table.allMovies {
+height: auto;}
+table .movieThumbnail {
+	border: 1px solid #95a60a;
+	width: 280px;
+	height: 400PX;
+	position: relative;
+}
+
 table .allMovies .movieTitle {
 	font-family: "Trebuchet MS";
 height: auto;
 width: 280px;
- margin: 5PX;
+height: 50px;
+padding: 5px;
  text-align: center;
 }
+
 table .allMovies a{
     text-decoration: none;
      font-weight: bold;
   color: #95a60a;
   font-size: 27px;
+	font-variant: small-caps;
 
 
 }
 
 table tr td {
-    padding: 12px;
+    padding-left: 25px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 
 }
 table .allMovies a:hover{
@@ -56,6 +70,38 @@ table .allMovies a:hover{
   color: black;
 }
 .movieThumbnail:hover {
-    box-shadow: 0 5px 7px 0 #95a60a;
+    box-shadow: 0px 0px 20px 0 #95a60a;
 
+}
+
+.formulari  {
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 18px;
+	color: #95a60a;
+	width: 500px;;
+	margin: 25px;
+}
+
+.formulari fieldset{
+	padding: 10px 40px;
+	border-color: #95a60a;
+}
+.formulari fieldset button {
+	border-color: inherit;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 4px;
+	border-radius: 10px;
+	background-color: #95a60a;
+}
+.formulari fieldset input {
+	font-family: "Trebuchet MS";
+	font-variant: small-caps;
+	background-color: #95a60a;
+	font-size: 20px;
+	width: auto;
+	color: black;
+	padding: 7px;
+	border-radius: 10px;
 }
