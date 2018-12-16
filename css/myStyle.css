@@ -229,7 +229,10 @@ body #intro{
 	width:25%;
 	list-style: none;
 	float:right;
-
+}
+.largeImage img, .forImages img, .forText img{
+	padding: 5px;
+	border: 2px solid black;
 }
 #forText{
 	clear: both;
@@ -243,12 +246,17 @@ body #intro{
 	float:left;
 	position:relative;
 	border: 3px solid red;
+	z-index: 1;
+}
+.text p{
+
 }
 .continueElement{
 	position: absolute;
-    bottom: 0px;
-    right: 0;
-    border: 3px solid red;
+  bottom: 0px;
+  right: 0;
+  border: 3px solid red;
+	z-index: 10;
 }
 .photoElement{
 	width:48%;
