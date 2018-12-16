@@ -17,7 +17,6 @@ div {
   /*border: 3px solid #4CAF50;*/
 }
 header{
-	z-index:2;
 	position: relative;
 }
 .siteTFCU{
@@ -26,7 +25,6 @@ header{
 	width: 99.4%;
 	height: auto;
     opacity: 1;
-	z-index:1;
 	position: absolute;
 
 }
@@ -133,12 +131,41 @@ figure img {
 	padding: 10px 20px 10px 20px;
 	margin-bottom: 20px;
 }
+.alignleft{
+	float: left;
+}
 .alignright {
 	float: right;
 }
+.borderN {
+	border: 1px solid red;
+}
+.marginBotN{
+	margin-bottom: 25px;
+}
+.zIndex-1{
+	z-index: -1;
+}
+.zIndex0{
+	z-index: 0;
+}
+.zIndex1{
+	z-index: 1;
+}
+.zIndex2{
+	z-index: 2;
+}
+.zIndex3{
+	z-index: 3;
+}
+.zIndex90{
+	z-index: 90;
+}
+.clearN{
+	clear: both;
+}
 
 .Search {
-	float: right;
 	padding-bottom: 10px;
 	height: 25px;
 
@@ -195,7 +222,6 @@ body #intro{
 	height: auto;
 	padding: 30px 20px;
 	background-color: #95a60a;
-	z-index:1;
 	position: relative;
 
 }
@@ -225,10 +251,14 @@ body #intro{
 .forImages{
 	clear: both;
 }
+.forImages ul{
+}
 .forImages ul li{
 	width:25%;
+	height: 25%;
 	list-style: none;
 	float:right;
+	background-color: transparent;
 }
 .largeImage img, .forImages img, .forText img{
 	padding: 5px;
@@ -246,7 +276,6 @@ body #intro{
 	float:left;
 	position:relative;
 	border: 3px solid red;
-	z-index: 1;
 }
 .text p{
 
@@ -256,7 +285,6 @@ body #intro{
   bottom: 0px;
   right: 0;
   border: 3px solid red;
-	z-index: 10;
 }
 .photoElement{
 	width:48%;
@@ -299,7 +327,6 @@ footer{
 	clear: both;
 	padding: 20px;
 	border: 3px solid red;
-	z-index:2;
 }
 footer #NewsLetter{
 	float: left;

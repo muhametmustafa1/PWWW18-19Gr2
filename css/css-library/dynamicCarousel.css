@@ -1,4 +1,4 @@
-.CarouselN { box-sizing: border-box; padding: 40px;z-index: -1;}
+.CarouselN { box-sizing: border-box; padding: 40px;z-index: 1;}
 
 .dynamicCarousel {
   font-family: sans-serif;

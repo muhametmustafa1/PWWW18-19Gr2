@@ -1,4 +1,4 @@
-document.writeln(`<link rel="stylesheet" type="text/css" href="css/dynamicCarousel.css"><div class="CarouselN">
+document.writeln(`<link rel="stylesheet" type="text/css" href="css/css-library/dynamicCarousel.css"><div class="CarouselN">
 	<div class="dynamicCarousel">
 		<div class="carousel-options" style="float:right;">
 		  <p>
@@ -25,7 +25,6 @@ document.writeln(`<link rel="stylesheet" type="text/css" href="css/dynamicCarous
 		    </label>
 		  </p>
 		</div>
-
 		<div class="sceneN">
 			<div class="scene">
 			  	<div class="carousel" >

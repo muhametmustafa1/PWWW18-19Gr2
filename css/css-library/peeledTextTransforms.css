@@ -35,13 +35,11 @@
   content: attr(data-text);
 }
 .siteTFCUbody p span::before {
-  z-index: 1;
   color: rgba(0,0,0,0.2);
   -webkit-transform: scale(1.1, 1) skew(0deg, 20deg);
           transform: scale(1.1, 1) skew(0deg, 20deg);
 }
 .siteTFCUbody p span::after {
-  z-index: 2;
   color: rgba(0, 0, 50, 0.9);
   text-shadow: -1px 0 1px rgba(0, 0, 230, 0.9), 1px 0 1px rgba(0,127,255,1);
   -webkit-transform: rotateY(-40deg);
@@ -90,7 +88,6 @@
   padding-top: 50px; 
   height: 100%;
   opacity: 0.9;
-  z-index: 5;
 }
 .siteTFCUbody {
   opacity: 0;
