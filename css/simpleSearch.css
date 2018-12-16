@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+/* Base styling */
+
+.simpleSearch {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #2a2925;
+    font-family: 'Raleway', sans-serif;
+}
+
+.search__container {
+        padding-top: 4px;
+        padding-right: 50px;
+    }
+
+.search__title {
+        font-size: 22px;
+        font-weight: 900;
+        text-align: center;
+        color: rgba(0,127,255,1);
+    }
+
+.search__input {
+        width: 100%;
+        padding: 10px 22px;
+
+        background-color: transparent;
+        transition: transform 250ms ease-in-out;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: rgba(0,127,255,1);
+        background-color: transparent;
+        background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        background-position: 95% center;
+        border-radius: 50px;
+        border: 1px solid rgba(0,127,255,1);
+        border-top: dotted;
+        border-left: double;
+        border-bottom: dashed;
+        transition: all 250ms ease-in-out;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+    }
+
+.search__input::placeholder {
+            color: rgba(0,255,255,0.8);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+.search__input:hover,
+        .search__input:focus {
+            padding: 12px 0;
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 2px solid rgba(0,127,255,1);
+            border-radius: 0;
+            background-position: 100% center;
+        }

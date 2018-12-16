@@ -1,4 +1,3 @@
-console.log("wtf");
 document.writeln('		<div id="siteHeader"> <!-- Pjesa statike -->');
 document.writeln('			<link rel="stylesheet" type="text/css" href="css/animation.css">');
 document.writeln('			<div class="logo">');
@@ -9,8 +8,15 @@ document.writeln('			</figure>');
 document.writeln('			</div>');
 document.writeln('			<div class="rightSideBar">');
 document.writeln('				<div class="Search">');
-document.writeln('					<input type="text" placeholder="Search this website..." />');
-document.writeln('					<input class="buttonN" type="submit" value="Search">');
+document.writeln(`<link rel="stylesheet" type="text/css" href="css/simpleSearch.css">
+					<div class="simpleSearch">
+					<div class="search__container">
+					    <!--<p class="search__title">
+					        Go ahead, hover over search
+					    </p>-->
+					    <input class="search__input" type="text" placeholder="Search">
+					</div>	
+					</div>`);
 document.writeln('				</div><br /><br />');
 document.writeln('				<div id="pagesMenu">');
 document.writeln('							<ul>');
