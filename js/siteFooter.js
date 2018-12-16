@@ -10,39 +10,18 @@ document.writeln(`<div id="siteFooter">
 		<div class="NewsContent">
 
 			<div class="Element leftN">
-				<h4>Services</h4>
-				<p>Lorem ipsum dolor
-					Suspendisse in neque
-					Praesent et eros
-					Lorem ipsum dolor
-					Suspendisse in neque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius nisi tenetur volupta
-					te! Amet architecto, culpa debitis delectus distinctio eveniet facere iusto laudantium minima officia quam quo,
-					reprehenderit, rerum voluptate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto in nemo nulla si
-					nt. Ad autem dignissimos esse ipsam minima obcaecati quo sequi veritatis, voluptates! Alias eveniet explicabo praesentium sint?</p>
+				<h4>Filmat</h4>
+				<p>Filmat me te shikuar ne kinemate boteror vijne neper shtepite tuaja ekskluzivisht ne Cubi Tv .</p>
 			</div>
 
 			<div class="Element rightN">
-				<h4>Title Text</h4>
-				<p>Lorem ipsum dolor
-					Suspendisse in neque
-					Praesent et eros
-					Lorem ipsum dolor
-					Suspendisse in neque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius nisi tenetur volupta
-					te! Amet architecto, culpa debitis delectus distinctio eveniet facere iusto laudantium minima officia quam quo,
-					reprehenderit, rerum voluptate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto in nemo nulla si
-					nt. Ad autem dignissimos esse ipsam minima obcaecati quo sequi veritatis, voluptates! Alias eveniet explicabo praesentium sint?</p>
+				<h4>LiveStreaming</h4>
+				<p>Faqja e pare ne Kosove dhe me gjere me linka te cilet punojne! Vendi ku mund te gjeni linka te cilet nuk bllokohen vazhdimisht dhe pa ads .</p>
 			</div>
 
 			<div class="Element centerN">
-				<h4>Title Text</h4>
-				<p>Lorem ipsum dolor
-					Suspendisse in neque
-					Praesent et eros
-					Lorem ipsum dolor
-					Suspendisse in neque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eius nisi tenetur volupta
-					te! Amet architecto, culpa debitis delectus distinctio eveniet facere iusto laudantium minima officia quam quo,
-					reprehenderit, rerum voluptate? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto in nemo nulla si
-					nt. Ad autem dignissimos esse ipsam minima obcaecati quo sequi veritatis, voluptates! Alias eveniet explicabo praesentium sint?</p>
+				<h4>Serialet</h4>
+				<p>Deshironi episodat e fundit te serialeve me te reja !? At'here kjo eshte faqja e duhur te cilen ju po kerkoni. Nje faqe me serialet me te mira te kohes.</p>
 			</div>
 		</div>
 
