@@ -104,3 +104,23 @@ table {
 #pagesMenu ul {
     width: 50% !important;
 }
+
+.sugjerime {
+    margin-left: 45%;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.sugjerime:hover {
+    box-shadow: 0 1px 15px 0 #4CAF50, 0 1px 2px 0 #4CAF50;
+}
+
+table {
+    margin-top: 20px;
+}
+
+.sugjerime h3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}

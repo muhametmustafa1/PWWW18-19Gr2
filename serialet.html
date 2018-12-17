@@ -37,6 +37,8 @@
       </div>
     </header>
 
+    <button onclick="myFunction()" class="sugjerime"><h3 class="textFont">Sugjero Seriale:</h3></button>
+
     <table>
       <tr>
         <td><div class="allSeries">
@@ -51,9 +53,9 @@
             </div>
               <div class="seriesEpisodes">
 
-                  <select>
+                  <select onchange="location = this.value;">
                       <option value="Episodi1">Episodi1</option>
-                      <option value="Episodi2">Episodi2</option>
+                      <option value="google.com">Episodi2</option>
                       <option value="Episodi3">Episodi3</option>
                       <option value="Episodi4">Episodi4</option>
                   </select>
@@ -234,6 +236,104 @@
             </td>
 
         </tr>
+        <tr>
+            <td><div class="allSeries">
+                <div class="seriesThumbnails">
+                    <img src="seriesThumbnails/strangerTh.jpg" width="280px" height="400px" alt="Nuk u gjet fotoja e serialit 2">
+                </div>
+                <div class="seriesTitle textFont">
+                    Stranger Things
+                </div>
+                <div class="category textFont">
+                    Category: Drame
+                </div>
+                <div class="seriesEpisodes">
+
+                    <select>
+                        <option value="Episodi1">Episodi1</option>
+                        <option value="Episodi2">Episodi2</option>
+                        <option value="Episodi3">Episodi3</option>
+                        <option value="Episodi4">Episodi4</option>
+                    </select>
+                </div>
+
+            </div>
+
+                </div>
+            </td>
+            <td><div class="allSeries">
+                <div class="seriesThumbnails">
+                    <img src="seriesThumbnails/houseOfC.jpg" width="280px" height="400px" alt="Nuk u gjet fotoja e serialit 2">
+                </div>
+                <div class="seriesTitle textFont">
+                    House of Cards
+                </div>
+                <div class="category textFont">
+                    Category: Drame
+                </div>
+                <div class="seriesEpisodes">
+
+                    <select>
+                        <option value="Episodi1">Episodi1</option>
+                        <option value="Episodi2">Episodi2</option>
+                        <option value="Episodi3">Episodi3</option>
+                        <option value="Episodi4">Episodi4</option>
+                    </select>
+                </div>
+
+            </div>
+
+                </div>
+            </td>
+            <td><div class="allSeries">
+                <div class="seriesThumbnails">
+                    <img src="seriesThumbnails/bMirror.jpg" width="280px" height="400px" alt="Nuk u gjet fotoja e serialit 2">
+                </div>
+                <div class="seriesTitle textFont">
+                    Black Mirror
+                </div>
+                <div class="category textFont">
+                    Category: Drame
+                </div>
+                <div class="seriesEpisodes">
+
+                    <select>
+                        <option value="Episodi1">Episodi1</option>
+                        <option value="Episodi2">Episodi2</option>
+                        <option value="Episodi3">Episodi3</option>
+                        <option value="Episodi4">Episodi4</option>
+                    </select>
+                </div>
+
+            </div>
+
+                </div>
+            </td>
+            <td><div class="allSeries">
+                <div class="seriesThumbnails" >
+                    <img src="seriesThumbnails/peakyBlinders.jpg" width="280px" height="400px" alt="Nuk u gjet fotoja e serialit 2">
+                </div>
+                <div class="seriesTitle textFont">
+                    Peaky Blinders
+                </div>
+                <div class="category textFont">
+                    Category: Drame
+                </div>
+                <div class="seriesEpisodes">
+
+                    <select>
+                        <option value="Episodi1">Episodi1</option>
+                        <option value="Episodi2">Episodi2</option>
+                        <option value="Episodi3">Episodi3</option>
+                        <option value="Episodi4">Episodi4</option>
+                    </select>
+                </div>
+
+            </div>
+
+                </div>
+            </td>
+        </tr>
     </table>
 
   </body>
@@ -295,5 +395,17 @@
   		<p class="pR">Template by R!n0</p>
   </div>
   </footer>
+  <script>
+      function myFunction() {
+          var txt;
+          var person = prompt("Shkruaj emrin e serialit:", "Seriali yt");
+          if (person == null || person == "") {
+              txt = "User cancelled the prompt.";
+          } else {
+              txt = "Hello " + person + "! How are you today?";
+          }
+          document.getElementById("demo").innerHTML = txt;
+      }
+  </script>
   </body>
   </html>
