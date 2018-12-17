@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+#introMenu{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	color: #2B60DE;
+}
+.menyjaERe {
+	height:100%;
+	width:100%;
+	margin: auto;
+	background: url('profile_banner.jpg') no-repeat;
+	background-size: cover;
+	display:table;
+	top:0;
+}
+.menyja {
+	width:100%;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	/*width:  100%;
+	margin-left: auto;
+	margin-right: auto;*/
+	
+	
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: black;
+	opacity:0.8;
+	filter:alpha (opacity=80);
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	border-radius: 7.5px;
+
+}
+ul li a {
+	font-weight:bold;
+	border-radius: 7.5px;
+	transition:background 3.0s;
+	-webkit-transition: background 3.0s;
+	text-decoration: none;
+	display: block;
+}
+ul li a:hover {
+	background-color: #151B54;
+	color: white;
+	text-shadow: 0px 0px 20px #FF0000;
+	z-index: 0;
+}
+ul li ul li {
+	font-weight:bold;
+	border-radius: 20px;
+	text-transform: none;
+	font-family: 'Raleway', sans-serif;
+	display:none;
+}
+ul li:hover ul li {
+	z-index: 0;
+	display: block;
+	
+}
+ul li ul li a:hover {
+	border: outset #000031 1px;
+	border-radius: 20px;
+	text-shadow: 3px 2px #000000;
+	opacity: 1;
+	filter:alpha (opacity=100);
+	z-index: 0;
+}

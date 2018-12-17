@@ -5,7 +5,7 @@
 .Iam {
   padding: 0em 0em;
   font: normal 40px/50px Montserrat, sans-serif;
-  color: #999;
+  color: rgba(0,255,255,0.5);
 }
 .Iam p {
   height: 50px;
@@ -22,7 +22,12 @@
 }
 .Iam .innerIam {
   display: inline-block;
-  color: #e74c3c;
+  color: rgba(0,255,255,0.9);
+  text-shadow:
+   -1px -1px 0 rgba(0,50,255,0.5),  
+    1px -1px 0 rgba(0,50,255,0.5),
+    -1px 1px 0 rgba(0,50,255,0.5),
+     1px 1px 0 rgba(0,50,255,0.5);
   position: relative;
   white-space: nowrap;
   top: 0;
