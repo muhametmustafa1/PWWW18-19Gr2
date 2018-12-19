@@ -4,10 +4,10 @@
 }
 
 #navbar {
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 	left: 0px;
-	top:150px;
+	top:160px;
 	height: 50px;
 	width: 100%;
 }
@@ -16,8 +16,8 @@ em {
 	font-weight: bold;
 }
 #navbar button {
-	padding: 7px;
-	margin-right: 15px;
+	padding: 2px;
+	margin-right: 10px;
 	font-family:"Trebuchet MS";
 	font-weight: bold;
 	font-size: 35px;
@@ -38,7 +38,7 @@ em {
 #navbar nav {
 	float: center;
 	height: 50px;
-	background-color: none;
+	background-color: black;
 }
 #navbar nav .linqet {
 	border: 1.5px solid #95a60a;
@@ -47,7 +47,7 @@ em {
 	font-family: "Trebuchet MS";
 	font-variant: small-caps;
 	height: auto;
-	font-size: 35px;
+	font-size: 32px;
 	background-color: black;
 	/* display: inline-block */
 	display: none;
@@ -153,7 +153,7 @@ table .allMovies a:hover{
 	border-radius: 10px;
 	background-color: #95a60a;
 }
-.formulari fieldset input {
+.formulari fieldset input[type="text"] {
 	font-family: "Trebuchet MS";
 	font-variant: small-caps;
 	background-color: #95a60a;
