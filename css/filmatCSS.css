@@ -13,7 +13,10 @@
 }
 em {
 	color: red;
-	font-weight: bold;
+	font-weight: bolder;
+font-variant: small-caps;
+font-size: 20px;
+
 }
 #navbar button {
 	padding: 2px;
@@ -133,6 +136,8 @@ table .allMovies a:hover{
 }
 
 .formulari  {
+
+	float: left;
 	font-weight: bold;
 	font-family: monospace;
 	font-size: 18px;
@@ -162,4 +167,63 @@ table .allMovies a:hover{
 	color: black;
 	padding: 7px;
 	border-radius: 10px;
+}
+#forma  {
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 18px;
+	color: #95a60a;
+	width: 500px;
+	height: auto;
+}
+#forma fieldset{
+	padding: 10px 40px;
+	border-color: white;
+	width:auto;
+	height: auto;
+	margin: 20px;
+}
+#forma fieldset button {
+	font-weight: bold;
+	font-size: 20px;
+	font-variant: small-caps;
+	padding: 4px;
+	border-radius: 5px;
+	background-color: #354EF2;
+	color: white;
+
+}
+#forma fieldset input[type="text"] {
+	font-family: arial;
+	background-color: white;
+	font-size: 15px;
+	width: auto;
+	color: black;
+	padding: 7px;
+	border-radius: 10px;
+}
+#forma fieldset input[type="password"] {
+
+	background-color: white;
+	font-size: 15px;
+	width: auto;
+	color: red;
+	padding: 7px;
+	border-radius: 10px;
+}
+#forma fieldset input[type="text"]:focus {
+background-color: green;
+color: white;
+}
+#forma fieldset input[type="password"]:focus {
+background-color: red;
+color: white;
+}
+#forma fieldset input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	
 }

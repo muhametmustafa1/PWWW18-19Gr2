@@ -257,10 +257,7 @@
                           <td><div class="allMovies">
                             <div class="movieThumbnail">
                               <img src="https://m.media-amazon.com/images/M/MV5BOTgwMzFiMWYtZDhlNS00ODNkLWJiODAtZDVhNzgyNzJhYjQ4L2ltYWdlXkEyXkFqcGdeQXVyNzEzOTYxNTQ@._V1_SY999_CR0,0,670,999_AL_.jpg"
-                              title="Based on the real life story of legendary cryptanalyst Alan Turing,
-the film portrays the nail-biting race against time by Turing and his
-brilliant team of code-breakers at Britain's top-secret Government Code
-and Cypher School at Bletchley Park, during the darkest days of World War II" width="280px" height="400px"alt="Nuk u gjet fotoja e filmit Drame 1">
+                               width="280px" height="400px"alt="Nuk u gjet fotoja e filmit Drame 1">
                             </div>
                             <div class="movieTitle">
                               <a href="http://youtube.com/watch?v=T40uC-SznNs">The Imitation Game</a>
@@ -361,7 +358,10 @@ and Cypher School at Bletchley Park, during the darkest days of World War II" wi
                           </tr>
                         </table>
 
-        <form id="formulari" action="" method="get">
+         <div class="formulari">
+
+
+        <form class="formulari" action="#" method="get">
             <fieldset>
               <legend>Na ndihmoni ne permiresimin e faqes ketu: </legend>
           <p> Nese keni ndonje film qe e pelqeni, mirepo nuk e gjeni ketu
@@ -380,21 +380,52 @@ and Cypher School at Bletchley Park, during the darkest days of World War II" wi
             <button type="submit" name="button">Kliko ketu</button>
 
           </fieldset>
-        </form>
+        </form >
+      </div >
 
-        <form id="form" action="#" method="get">
 
-        </form>
+      <div id="forma">
+          <form  action="#" method="get">
             <fieldset>
               <legend>CubiTV Premium Llogari</legend>
-                <p> Kyçuni ketu per ta shfrytezuar Premium llogarinë e CubiTV </p>
-                <label>Shkruani username tuaj:</label>
-                  <input type="text" name="username" required>
-                <label>Shkruani fjalekalimin:</label>
-                  <input type="password" name="" required>
-            </fieldset>
+                <p> Kyçuni ketu per ta shfrytezuar <br>
+                  <em>Premium</em> llogarine e CubiTV </p>
+                <br>
+                <p> Gjithashtu mund ta shfrytezoni dhe <br>
+                <em style="color:green;font-variant:small-caps;">Standard</em>
+                llogarine e CubiTV</p>
+                <br>
+                <label>Shkruani username tuaj:</label> <br>
+                <input type="text" name="username" required>
+                <br>
+                <label>Shkruani fjalekalimin:</label> <br>
+                <input type="password" name="" required>
+                  <br> <br>
+                <button type="submit"> Kyçu </button>
+                   <br><br>
+                  <hr>
+                  <br>
+                  <p>Deshironi te hapni llogari te re<em>?</em></p> <br>
+                  <label>Shkruani username tuaj:</label> <br>
+                  <input  type="text" name="username" required>
+                  <br>
+                  <label>Shkruani password tuaj:</label> <br>
+                  <input type="password" name="username" required>
+                  <br>
+                  <br>
+                  <label>Zgjidhni nese deshironi qe llogaria te jete
+                    <em>Premium</em></label>
+                  <input type="checkbox" name="lloji" value="Premium">
+                  <br> <br>
+                  <button id="butoni" type="submit">Regjistrohuni</button>
 
-          </div>
+            </fieldset>
+      </form>
+
+
+    </div>
+
+
           <footer><!-- Pjesa statike -->
           	<script type="text/javascript" src="js\siteFooter.js">
           	</script>
