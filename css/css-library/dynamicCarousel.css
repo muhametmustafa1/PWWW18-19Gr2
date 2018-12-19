@@ -1,4 +1,4 @@
-.CarouselN { box-sizing: border-box; padding: 40px;z-index: 1;}
+.CarouselN { box-sizing: border-box; padding: 40px;}
 
 .dynamicCarousel {
   font-family: sans-serif;
@@ -8,11 +8,6 @@
   border-right: 5px solid #2196F3;
   border-bottom: 16px groove #2196F3;
   background-color: rgba(0,250,255,0.5);
-  outline: 4px;
-  outline-style: dotted;
-  outline-color: rgba(0,127,255,1);
-  outline-offset: 35px;
-  box-shadow: -50px 0px 30px 40px #0ff, 50px 0px 30px 40px #00f;
   border-radius: 50px 50px 50px 50px;
   padding: 40px;
 }
@@ -84,7 +79,7 @@
   text-align: center;
   padding: 40px 0px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   color: rgba(0,255,255,1);
   font-family: Times new roman;
   background-color: rgba(0,127,255,0.6);

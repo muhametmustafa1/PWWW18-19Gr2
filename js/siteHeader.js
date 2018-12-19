@@ -1,5 +1,5 @@
 document.writeln(`
-	<div id="siteHeader" class="zIndex0"> <!-- Pjesa statike -->
+	<div id="siteHeader" class="zIndex1"> <!-- Pjesa statike -->
 		<link rel="stylesheet" type="text/css" href="css/animation.css">
 		<div class="logo alignleft">
 			<figure class="figureSyle">
@@ -8,7 +8,7 @@ document.writeln(`
 			</figure>
 		</div>
 		<div class="rightSideBar alignright">
-			<div class="Search alignright marginBotN zIndex0">
+			<div class="Search alignright marginBotN zIndex1">
 				<link rel="stylesheet" type="text/css" href="css/css-library/simpleSearch.css">
 				<div class="simpleSearch">
 					<div class="search__container">
@@ -21,7 +21,7 @@ document.writeln(`
 			</div><br /><br />
 
 			<link rel="stylesheet" type="text/css" href="css/css-library/transparent-menu.css">
-			<div id="introMenu" class="menyja alignright zIndex0" style="clear:both;">
+			<div id="introMenu" class="menyja alignright zIndex1" style="clear:both;">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="liveStreaming.html">Live Streaming</a>
