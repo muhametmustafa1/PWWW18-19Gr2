@@ -26,9 +26,9 @@ document.writeln(`<div id="siteFooter">
 		</div>
 
 		<div id="CopyRight">
-			<p class="pL" style="border: 3px solid red;">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
+			<p class="pL"">Copyright &copy; 2013 Domain Name - All Rights Reserved</p>
 			<link rel="stylesheet" type="text/css" href="css/css-library/verticallyRotating.css">
-			<div class="pR" style="border: 3px solid red;">
+			<div class="pR">
 				<div class="siteVerticalRotate">
 					<div class="Iam">
 					<b>
