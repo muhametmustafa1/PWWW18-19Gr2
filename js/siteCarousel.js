@@ -1,10 +1,10 @@
 document.writeln(`<link rel="stylesheet" type="text/css" href="css/css-library/dynamicCarousel.css"><div class="CarouselN zIndex0">
 	<div class="dynamicCarousel">
 		<div class="carousel-options" style="float:right;">
-		  <p>
-		    <label>
+		  <p >
+		    <label style="visibility:hidden;">
 		      Cells
-		      <input class="cells-range" type="range" min="3" max="15" value="9" />
+		      <input class="cells-range" type="range" min="3" max="15" value="3" />
 		    </label>
 		  </p>
 		  <p>
