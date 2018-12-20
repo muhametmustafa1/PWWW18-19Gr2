@@ -277,7 +277,7 @@ figure figcaption {
 	height: 100px;
 }
 .largeImage img, .forImages img, .forText img, .photoElement{
-	border: 2px solid black;
+	border: 2px dashed black;
 	padding: 5px;
 }
 #forText{
