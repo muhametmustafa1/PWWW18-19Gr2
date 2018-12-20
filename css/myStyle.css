@@ -312,9 +312,8 @@ figure figcaption {
 }
 body .Content{
 	clear: both;
-	background: #e4dfc8;
+	background: #7a6e34;
 	padding: 20px 0px;
-	border: 3px solid red;
 	height: 350px;
 }
 .threeRowN{width: 99.4%;}

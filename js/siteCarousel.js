@@ -31,18 +31,6 @@ document.writeln(`<link rel="stylesheet" type="text/css" href="css/css-library/d
 				    <div class="carousel__cell"><img src="images/forText-poster.jpg" alt="nuk u gjet fotojaP2"></div>
 				    <div class="carousel__cell"><img src="images/terminator-6-posterImage.jpg" alt="nuk u gjet fotojaP2"></div>
 				    <div class="carousel__cell"><img src="images/creed-2-posterImage.jpg" alt="nuk u gjet fotojaP2"></div>
-				    <div class="carousel__cell">4</div>
-				    <div class="carousel__cell">5</div>
-				    <div class="carousel__cell">6</div>
-				    <div class="carousel__cell">7</div>
-				    <div class="carousel__cell">8</div>
-				    <div class="carousel__cell">9</div>
-				    <div class="carousel__cell">10</div>
-				    <div class="carousel__cell">11</div>
-				    <div class="carousel__cell">12</div>
-				    <div class="carousel__cell">13</div>
-				    <div class="carousel__cell">14</div>
-				    <div class="carousel__cell">15</div>
 			  	</div>
 			</div>
 		</div>
