@@ -27,10 +27,10 @@ document.writeln(`<link rel="stylesheet" type="text/css" href="css/css-library/d
 		</div>
 		<div class="sceneN">
 			<div class="scene">
-			  	<div class="carousel" >
-				    <div class="carousel__cell">1</div>
-				    <div class="carousel__cell">2</div>
-				    <div class="carousel__cell">3</div>
+			  	<div class="carousel" >creed-2-posterImage.jpg
+				    <div class="carousel__cell"><img src="images/forText-poster.jpg" alt="nuk u gjet fotojaP2"></div>
+				    <div class="carousel__cell"><img src="images/terminator-6-posterImage.jpg" alt="nuk u gjet fotojaP2"></div>
+				    <div class="carousel__cell"><img src="images/creed-2-posterImage.jpg" alt="nuk u gjet fotojaP2"></div>
 				    <div class="carousel__cell">4</div>
 				    <div class="carousel__cell">5</div>
 				    <div class="carousel__cell">6</div>
