@@ -186,7 +186,7 @@ table .allMovies a:hover{
 	height: auto;
 	margin: 20px;
 }
-#forma fieldset button {
+#forma fieldset input[type="submit"] {
 	font-weight: bold;
 	font-size: 20px;
 	font-variant: small-caps;
@@ -225,5 +225,5 @@ color: white;
 #forma fieldset input[type="checkbox"] {
 	width: 15px;
 	height: 15px;
-	
+
 }

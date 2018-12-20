@@ -8,6 +8,7 @@
       <script src="js\filmatNavBar.js">
       </script>
 
+
     </head>
     <body>
 
@@ -385,7 +386,7 @@
 
 
       <div id="forma">
-          <form  action="#" method="get">
+          <form name="forma1" action="#" method="get" onsubmit="return validoFormen1()">
             <fieldset>
               <legend>CubiTV Premium Llogari</legend>
                 <p> Kyçuni ketu per ta shfrytezuar <br>
@@ -396,34 +397,46 @@
                 llogarine e CubiTV</p>
                 <br>
                 <label>Shkruani username tuaj:</label> <br>
-                <input type="text" name="username" required>
+                <input  type="text" name="username1" >
                 <br>
                 <label>Shkruani fjalekalimin:</label> <br>
-                <input type="password" name="" required>
+                <input  type="password"  name="password1">
                   <br> <br>
-                <button type="submit"> Kyçu </button>
-                   <br><br>
+
+              <input type="submit" name="butoni1" value="Kyçu">
+            </fieldset>
+          </form>
                   <hr>
-                  <br>
+
+          <form name="forma2" action="#" method="get" onsubmit="return validoFormen2()">
+            <fieldset>
+              <legend>Nuk keni llogari ne CubiTV</legend>
                   <p>Deshironi te hapni llogari te re<em>?</em></p> <br>
                   <label>Shkruani username tuaj:</label> <br>
-                  <input  type="text" name="username" required>
+                  <input  type="text" name="username2" >
                   <br>
-                  <label>Shkruani password tuaj:</label> <br>
-                  <input type="password" name="username" required>
+                  <label>Shkruani fjalekalimin e deshiruar:</label> <br>
+                  <input type="password" name="password2" >
                   <br>
+
+                  <label>Konfirmoni fjalekalimin:</label> <br>
+                  <input type="password" name="password21" >
+                  <br>
+
                   <br>
                   <label>Zgjidhni nese deshironi qe llogaria te jete
                     <em>Premium</em></label>
                   <input type="checkbox" name="lloji" value="Premium">
                   <br> <br>
-                  <button id="butoni" type="submit">Regjistrohuni</button>
-
+                  <input type="submit" name="butoni2" value="Regjistrohuni">
             </fieldset>
       </form>
 
 
     </div>
+    <script src="js\formValidationMovies.js">
+
+    </script>
 
 
           <footer><!-- Pjesa statike -->
