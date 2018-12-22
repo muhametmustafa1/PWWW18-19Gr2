@@ -169,3 +169,24 @@ table {
     text-decoration: none;
     cursor: pointer;
   }
+
+  .inputsForSugjero {
+      colore: blue;
+      height: 40px;
+      margin-top: 5px;
+  }
+
+  .inputsForSugjero input {
+      height: 25px;
+      width: 230px;
+      border: 1px solid green;
+      border-radius: 5px;
+  }
+
+  .inputsForSugjero label {
+
+  }
+
+  .modal-content form {
+      margin-top: 20px;
+  }
