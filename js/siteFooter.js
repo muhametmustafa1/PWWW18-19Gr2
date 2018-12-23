@@ -6,6 +6,11 @@ document.writeln(`<div id="siteFooter">
 				<input type="button" class="NewsletterB" value="GO">
 				<p>To unsubscribe please click here >></p>
 			</div>
+			<br>
+			Te dhenat per sot: <br>
+			 <p id=oradata></p> <br>
+			<button onclick ="getLocation()">Lokacioni juaj: </button> <p id="lokacioni"></p>
+
 		</div>
 		<div class="NewsContent">
 
@@ -48,3 +53,63 @@ document.writeln(`<div id="siteFooter">
 			</div>
 		</div>
 	</div>`);
+
+
+	var lokacioni = document.getElementById("lokacioni");
+
+	function getLocation() {
+	  if (navigator.geolocation) {
+	    navigator.geolocation.getCurrentPosition(showPosition, showError);
+	  } else {
+	    lokacioni.innerHTML = "Shfletuesi juaj nuk e mbeshtet Geolocation";
+	  }
+	}
+
+	function showPosition(position) {
+	  lokacioni.innerHTML = "Gjeresia: " + position.coords.latitude +
+	  ", gjatesia: " + position.coords.longitude;
+	}
+
+	function showError(error) {
+	  switch(error.code) {
+	    case error.PERMISSION_DENIED:
+	      lokacioni.innerHTML = "Perdoruesi e refuzoi kerkesen per Geolocation"
+	      break;
+	    case error.POSITION_UNAVAILABLE:
+	      lokacioni.innerHTML = "Informacioni per lokacion nuk eshte ne dispozicion"
+	      break;
+	    case error.TIMEOUT:
+	      lokacioni.innerHTML = "Kerkeses per gjetjen e lokacionit i ka skaduar koha"
+	      break;
+	    case error.UNKNOWN_ERROR:
+	      lokacioni.innerHTML = "Gabim i panjohur"
+	      break;
+	  }
+	}
+
+	var koha = new Date();
+	var oret = koha.getHours();
+	var minutat = koha.getMinutes();
+
+	if(oret <10) {
+		oret = "0"+oret;
+	}
+	if(minutat <10) {
+		minutat = "0"+minutat;
+	}
+
+	var data = koha.getDate()
+	var muaji = koha.getMonth();
+	var viti = koha.getFullYear();
+
+	if(data <10) {
+		data = "0"+data;
+	}
+	if(muaji <10) {
+		muaji = "0"+muaji;
+	}
+
+
+	var oradata = document.getElementById("oradata");
+	oradata.innerHTML = "Ora eshte: "+oret+":"+minutat + ", kurse "+
+										"data sot eshte: " + data+ "/"+ muaji+ "/"+viti;
