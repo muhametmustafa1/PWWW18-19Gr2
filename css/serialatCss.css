@@ -147,7 +147,7 @@ table {
     border: 1px solid #888;
     width: 40%;
     color: red;
-    height: 70%; 
+    height: 670px;
     border-radius: 7px;
   }
 
@@ -190,3 +190,11 @@ table {
   .modal-content form {
       margin-top: 20px;
   }
+
+#div1 {
+    width: 300px;
+    height: 410px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: left;
+}
