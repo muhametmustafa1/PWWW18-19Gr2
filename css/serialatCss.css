@@ -191,10 +191,18 @@ table {
       margin-top: 20px;
   }
 
-#div1 {
+#leftDiv {
     width: 300px;
     height: 410px;
     padding: 10px;
     border: 1px solid #aaaaaa;
     float: left;
+}
+
+#rightDiv {
+    width: 300px;
+    height: 410px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    float: right;
 }
