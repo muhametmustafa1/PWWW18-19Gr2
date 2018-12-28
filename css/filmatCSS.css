@@ -4,7 +4,7 @@
 }
 
 #navbar {
-	position: absolute;
+	position: fixed;
 	z-index: 1;
 	left: 0px;
 	top:160px;
@@ -19,11 +19,14 @@ font-size: 20px;
 
 }
 #navbar button {
+	background-image: url("https://image.flaticon.com/icons/svg/54/54630.svg");
+	background-size: 50px;
+	background-repeat: no-repeat;
 	padding: 2px;
 	margin-right: 10px;
 	font-family:"Trebuchet MS";
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 15px;
 	background-color: #95a60a;
 	cursor: pointer;
 	border-top: 5px solid black;
@@ -32,20 +35,26 @@ font-size: 20px;
 	border-left: none;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 0px;
+
+
 	float: left;
 	height: 50px;
 	line-height: 20px;
 	text-align: center;
-	width: auto;
+	width: 50px;;
 }
 #navbar nav {
 	float: center;
 	height: 50px;
-	background-color: black;
+	background-color: inherit;
+
 }
 #navbar nav .linqet {
-	border: 1.5px solid #95a60a;
-	border-radius: 10px;
+	border-top: 1.5px solid #95a60a;
+	border-bottom:  1.5px solid #95a60a;
+
 	color: black;
 	font-family: "Trebuchet MS";
 	font-variant: small-caps;
@@ -57,12 +66,40 @@ font-size: 20px;
 	right: 0px;
 	text-decoration: none;
 	color: #95a60a;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	padding-top: 2px;
 	padding-bottom: 2px;
+	margin-left: 8px;
 
 }
+#navbar nav .linqet:hover {
+	text-shadow: 0px 0px 8px #07399B;
+	text-transform:lowercase;
+	text-transform:full-width;
+	background-color: #95a60a;
+	color: black;
+}
+#navbar button span {
+	display: none;
+}
+#navbar button:hover span {
+		display: inline-block;
+
+}
+#navbar button:hover{
+	width: auto;
+	background-image: none;
+	border:none;
+	border-radius: 20px;
+	vertical-align: center;
+	background-color: black;
+	color: #95a60a;
+
+}
+
+
+
 
 table caption{
 	border-left: 3px solid black;
@@ -74,11 +111,6 @@ table caption{
 	background-color: #95a60a;
 }
 
-table caption:hover {
-	background-color: black;
-	color: #95a60a;
-	cursor: context-menu;
-}
 
 table {
 	background-color: black;
