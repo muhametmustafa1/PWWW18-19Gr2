@@ -200,6 +200,16 @@ table .allMovies a:hover{
 	padding: 7px;
 	border-radius: 10px;
 }
+.formulari fieldset input[type="text"]:focus {
+	background-color: black;
+	color:inherit;
+}
+
+ input[type="text"]:hover {
+	cursor: text;
+}
+
+
 #forma  {
 	float: right;
 	margin-top: 10px;
