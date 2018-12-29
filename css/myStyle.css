@@ -235,8 +235,10 @@ body #intro{
 
 .largeImage{
   	position: relative;
+		top: 65px;
   	bottom: 0;
   	right: 0;
+		margin-left: 20px;
 }
 .largeImage img{
   	width: 100%;
