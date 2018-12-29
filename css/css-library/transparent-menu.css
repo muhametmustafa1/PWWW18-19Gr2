@@ -7,6 +7,8 @@
 	width: 100%;
 	font-family: Arial;
 	color: #2B60DE;
+	z-index: 3;
+	position: relative;
 }
 #introMenu a{
 	color: rgba(0,255,255,0.9);

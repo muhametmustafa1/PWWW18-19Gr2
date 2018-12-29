@@ -4,7 +4,7 @@ document.writeln(`<div id="siteFooter">
 				<h4>Stay In The Know!</h4><hr />
 				<input type="text" class="NewsletterT" value="" />
 				<input type="button" class="NewsletterB" value="GO">
-				<p>To unsubscribe please click here >></p>
+				<p>To unsubscribe please <a class="continueElementStyle" onclick="unsubscribe()">click here >></a></p>
 			</div>
 			<br>
 			Te dhenat per sot: <br>
