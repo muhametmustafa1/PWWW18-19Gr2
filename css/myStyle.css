@@ -302,7 +302,7 @@ figure figcaption {
 }
 .continueElementStyle{
 	color: rgba(0,255,255,0.9);
-  	
+
   	background-image: linear-gradient(-240deg, rgba(0,255,255,0.9), rgba(0, 127,255, 1));
   	padding: 0px 4px;
   	border-radius: 6px;
@@ -357,6 +357,87 @@ footer #NewsLetter{
     padding-top: 24px;
 
 }
+footer .contentNews {
+	font-family: "Trebuchet";
+}
+
+footer .contentNews  h4{
+	text-align: left;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+footer .contentNews input[type="range"]{
+	margin-top: 5px;
+
+}
+footer .contentNews input[type="button"] {
+	margin-top: 5px;
+	background-color: #95a60a;
+	padding: 2px;
+	font-size: 1.1em;
+	margin-left: 10px;
+	color: white;
+	margin-bottom: 10px;
+	cursor: pointer;
+
+}
+
+footer input[type="button"]:hover {
+	color: black;
+	border: 1px solid white;
+	font-weight: bold;
+
+}
+
+footer .contentNews a {
+	color: white;
+	background-color: inherit;
+	color: #95a60a;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+
+footer .contentNews a:hover{
+	font-weight: bold;
+	font size 1.2em;
+	color: red;
+
+}
+
+
+footer #oradata {
+	font-family: monospace;
+	font-size: 1.08em;
+	color: lightblue;
+}
+
+
+footer #locButton {
+	background-color: #95a60a;
+	padding: 2px 5px;
+	font-size: .9em;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 3px;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+footer #locButton:hover {
+	background-color: green;
+	color:white;
+}
+
+footer #lokacioni{
+	color: green;
+font-family: monospace;
+font-size:1.2em;
+font-variant:small-caps;
+font-weight: bold;
+
+}
+
 footer .NewsContent{
 	float: right;
 	width: 60%;

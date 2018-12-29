@@ -1,15 +1,15 @@
 document.writeln(`<div id="siteFooter">
 		<div id="NewsLetter">
 			<div class="contentNews">
-				<h4>Stay In The Know!</h4><hr />
-				<input type="text" class="NewsletterT" value="" />
-				<input type="button" class="NewsletterB" value="GO">
-				<p>To unsubscribe please <a class="continueElementStyle" onclick="unsubscribe()">click here >></a></p>
+				<h4>Vleresojeni punen tone!</h4><hr />
+				<input type="range" id="nota" min ="1" max ="10" class="NewsletterT" value="" />
+				<input type="button" class="NewsletterB" value="Vlereso"  onclick="mesazh()">
+				<p>Per te na derguar email <a  href="mailto:muhametsmustafa1@gmail.com">klikoni ketu>></a></p>
 			</div>
-			<br>
+			  <br/>
 			Te dhenat per sot: <br>
 			 <p id=oradata></p> <br>
-			<button onclick ="getLocation()">Lokacioni juaj: </button> <p id="lokacioni"></p>
+			<button onclick ="getLocation()" id="locButton">Lokacioni juaj: </button> <p id="lokacioni"></p>
 
 		</div>
 		<div class="NewsContent">
@@ -86,6 +86,11 @@ document.writeln(`<div id="siteFooter">
 	      break;
 	  }
 	}
+	function mesazh() {
+		var nota= document.getElementById("nota").value;
+		window.alert("Faleminderit qe e vleresuat faqen tone me noten: " + nota)
+
+	}
 
 	var koha = new Date();
 	var oret = koha.getHours();
@@ -99,7 +104,7 @@ document.writeln(`<div id="siteFooter">
 	}
 
 	var data = koha.getDate()
-	var muaji = koha.getMonth();
+	var muaji = koha.getMonth() +1;
 	var viti = koha.getFullYear();
 
 	if(data <10) {
