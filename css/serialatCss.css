@@ -138,7 +138,7 @@ table {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
   }
-  
+
   /* Modal Content */
   .modal-content {
     background-color: #dddddd;
@@ -154,7 +154,7 @@ table {
   .modal-content form {
     display: block;
   }
-  
+
   /* The Close Button */
   .close {
     color: #aaaaaa;
@@ -162,7 +162,7 @@ table {
     font-size: 28px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #000;
@@ -189,6 +189,41 @@ table {
 
   .modal-content form {
       margin-top: 20px;
+  }
+  form button {
+    background-color: red;
+    color: white;
+    font-family: "Trebuchet MS";
+    padding: 2px 8px;
+    font-size: 15px;
+    border-radius: 7px;
+    position: relative;
+    left:150px;
+    width: auto;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  form button:hover {
+    background-color: #700000;
+    cursor: pointer;
+  }
+
+  form  input[type="text"] {
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+  }
+
+  form  input[type="text"]:focus {
+    background-color: #EEEEEE;
+  }
+
+  form input[type="number"] {
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    color: green;
+    width:auto;
   }
 
 #leftDiv {
