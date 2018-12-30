@@ -4,7 +4,7 @@
 }
 
 #navbar {
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 	left: 0px;
 	top:160px;
@@ -168,7 +168,6 @@ table .allMovies a:hover{
 }
 
 .formulari  {
-
 	float: left;
 	font-weight: bold;
 	font-family: monospace;
@@ -267,5 +266,36 @@ color: white;
 #forma fieldset input[type="checkbox"] {
 	width: 15px;
 	height: 15px;
+
+}
+
+#stafi {
+	padding: 20px;
+	text-align: justify;
+	height: auto;
+	width: auto;
+	position: relative;
+	float: left;
+	top:100px;
+	color: #95a60a;
+	font-family: "Trebuchet MS";
+}
+
+#stafi a {
+	color:white;
+	font-family: monospace;
+
+}
+#stafi a:hover {
+	background-color: #95a60a;
+	color: black;
+	font-weight: bold;
+}
+
+#stafi ol li {
+	list-style-type:square;
+	color: inherit;
+	margin: 30px 10px;
+	font-size: 20px;
 
 }
