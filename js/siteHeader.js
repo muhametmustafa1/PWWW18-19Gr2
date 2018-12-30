@@ -1,5 +1,6 @@
 document.writeln(`
 	<div id="siteHeader" class="zIndex1"> <!-- Pjesa statike -->
+		<link rel="icon" href="images/logo.png" sizes="32x32 48x48" type="image/png">
 		<link rel="stylesheet" type="text/css" href="css/animation.css">
 		<div class="logo alignleft">
 			<figure class="figureSyle">
