@@ -9,6 +9,9 @@
       <script src="js\filmatNavBar.js">
       </script>
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      //Skripta per JQuery!!
+      </script>
 
     </head>
     <body>
@@ -471,9 +474,8 @@
 
     </div>
 <div id="stafi">
-
     Stafi jone perbehet nga:
-    <a onclick="stafi()" href="javascript:void(0)"> Kliko per te pare te dhenat e plota</a>
+    <a id="autoret" href="javascript:void(0)"> Kliko per te pare te dhenat e plota</a>
     <br>
     <br>
     <ol>
@@ -512,12 +514,22 @@ lista[1].innerHTML = arditi.emri + " " +arditi.mbiemri;
 lista[2].innerHTML = rinori.emri + " " +rinori.mbiemri;
 lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
 
-  function stafi() {
+  //Perdorimi i eventeve me jQuery
+  $(document).ready(function(){
+  $("#autoret").click(function(){
     lista[0].innerHTML = egzoni.te_dhenat();
     lista[1].innerHTML = arditi.te_dhenat();
     lista[2].innerHTML = rinori.te_dhenat();
     lista[3].innerHTML = meti.te_dhenat();
-  }
+  });
+  //Largimi i te dhenave shtese pasi te klikohet dy here
+  $("#autoret").dblclick(function(){ //double click
+    lista[0].innerHTML = egzoni.emri + " " +egzoni.mbiemri;
+    lista[1].innerHTML = arditi.emri + " " +arditi.mbiemri;
+    lista[2].innerHTML = rinori.emri + " " +rinori.mbiemri;
+    lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
+  });
+});
 
 </script>
 
