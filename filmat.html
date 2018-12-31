@@ -571,13 +571,17 @@ $(document).ready(function(){
     $("#largo").click(function(){
       if(shfaqur){
         $(this).html("Shfaqi perseri");
-        $("#stafi").hide("1000");
+        $("#stafi").hide(2000 , function(){
+          alert("Largimi i te dhenave u krye!");
+        });
         shfaqur = false;
       }
 
     else{
       $(this).html("Largo te dhenat e stafit");
-      $("#stafi").show("1000");
+      $("#stafi").show(2000, function(){
+        alert("Shfaqja e te dhenave u krye!");
+      });
       shfaqur = true;
     }
   });
