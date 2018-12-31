@@ -472,6 +472,7 @@
       </form>
 
 
+
     </div>
 <div id="stafi">
     Stafi jone perbehet nga:
@@ -485,6 +486,11 @@
       <li class="staf"></li>
     </ol>
 </div>
+
+<span >
+  <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
+</span>
+
 </div>
 
 <script type="text/javascript">
@@ -530,6 +536,25 @@ lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
     lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
   });
 });
+var shfaqur = true;
+$(document).ready(function(){
+
+    $("#largo").click(function(){
+      if(shfaqur){
+        $(this).html("Shfaqi perseri");
+        $("#stafi").hide("1000");
+        shfaqur = false;
+      }
+
+    else{
+      $(this).html("Largo te dhenat e stafit");
+      $("#stafi").show("1000");
+      shfaqur = true;
+    }
+  });
+});
+
+
 
 </script>
 

@@ -279,6 +279,8 @@ color: white;
 	top:100px;
 	color: #95a60a;
 	font-family: "Trebuchet MS";
+	border: 1px solid white;
+	left: 25px;
 }
 
 #stafi a {
@@ -297,5 +299,26 @@ color: white;
 	color: inherit;
 	margin: 30px 10px;
 	font-size: 20px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 
+}
+
+#informacion span {
+	position: absolute;
+left: 25px;
+margin-top: 448px;
+}
+#informacion span a {
+	color:black;
+	background-color: grey;
+	border-radius: 2px;
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+#informacion span a:hover {
+	background-color: black;
+	color:white;
+	font-weight: bold;
 }
