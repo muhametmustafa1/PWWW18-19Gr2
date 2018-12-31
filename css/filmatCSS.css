@@ -37,8 +37,6 @@ font-size: 20px;
 	border-bottom-right-radius: 15px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 0px;
-
-
 	float: left;
 	height: 50px;
 	line-height: 20px;
@@ -48,7 +46,8 @@ font-size: 20px;
 #navbar nav {
 	float: center;
 	height: 50px;
-	background-color: inherit;
+	background-color: black;
+	display: none;
 
 }
 #navbar nav .linqet {
@@ -62,7 +61,7 @@ font-size: 20px;
 	font-size: 32px;
 	background-color: black;
 	/* display: inline-block */
-	display: none;
+	display: inline-block;
 	right: 0px;
 	text-decoration: none;
 	color: #95a60a;

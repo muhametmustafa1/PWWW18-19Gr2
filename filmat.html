@@ -24,7 +24,7 @@
       </header>
 
       <div id="navbar">
-        <button onclick="hapeMenune()"> <span>Kategorite</span></button>
+        <button id="navbarButtoni"> <span>Kategorite</span></button>
         <nav id="a">
           <a class="linqet" href="#tabela_f_aksion">Aksion</a>
           <a class="linqet" href="#tabela_f_komedi">Komedi</a>
@@ -40,6 +40,16 @@
         </nav>
 
       </div>
+
+      <script>
+      //Perdorimi i funksionit toggle
+        $(document).ready(function(){
+          $("#navbarButtoni").click(function(){
+            $("#a").toggle("2000");
+          });
+        });
+
+      </script>
 
           <table id="tabela_f_aksion" >
             <caption style="margin-top:60px;">FILMAT AKSION:</caption>
