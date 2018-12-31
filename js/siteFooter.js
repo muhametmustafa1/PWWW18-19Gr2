@@ -2,8 +2,8 @@ document.writeln(`<div id="siteFooter">
 		<div id="NewsLetter">
 			<div class="contentNews">
 				<h4>Vleresojeni punen tone!</h4><hr />
-				<input type="range" id="nota" min ="1" max ="10" class="NewsletterT" value="" />
-				<input type="button" class="NewsletterB" value="Vlereso"  onclick="mesazh()">
+				Nota: <input type="range"  id="nota" min ="1" max ="10" class="NewsletterT" value="" />
+				<input type="button" id="myBt" class="NewsletterB" value="Vlereso"  onclick="mesazh()">
 				<p>Per te na derguar email <a  href="mailto:muhametsmustafa1@gmail.com">klikoni ketu>></a></p>
 			</div>
 			  <br/>
@@ -56,7 +56,7 @@ document.writeln(`<div id="siteFooter">
 
 
 	var lokacioni = document.getElementById("lokacioni");
-
+ //Paraqitja e lokacioni
 	function getLocation() {
 	  if (navigator.geolocation) {
 	    navigator.geolocation.getCurrentPosition(showPosition, showError);
@@ -86,12 +86,8 @@ document.writeln(`<div id="siteFooter">
 	      break;
 	  }
 	}
-	function mesazh() {
-		var nota= document.getElementById("nota").value;
-		window.alert("Faleminderit qe e vleresuat faqen tone me noten: " + nota)
 
-	}
-
+ //Paraqitja e ores dhe dites
 	var koha = new Date();
 	var oret = koha.getHours();
 	var minutat = koha.getMinutes();
@@ -118,3 +114,39 @@ document.writeln(`<div id="siteFooter">
 	var oradata = document.getElementById("oradata");
 	oradata.innerHTML = "Ora eshte: "+oret+":"+minutat + ", kurse "+
 										"data sot eshte: " + data+ "/"+ muaji+ "/"+viti;
+
+// Session Storage
+		var mesazhi;
+		var butoni = document.getElementById("myBt");
+
+		function mesazh() {
+				clickCounter(); //thirrja e funksionit clickCounter
+
+				var nota= document.getElementById("nota").value;
+
+				if(sessionStorage.clickcount >5) {
+					window.alert("Ju keni vleresuar 5 here, na vjen keq por nuk mund te vleresoni me ne kete sesion.");
+					butoni.disabled = true; // Mos lejo shfrytezuesin te klikoje me
+				}
+
+				else {
+				window.alert("Faleminderit qe e vleresuat faqen tone me noten: "+ nota + mesazhi);
+				}
+	 }
+
+function clickCounter() {
+	if(typeof(Storage) !== "undefined") {
+		  if (sessionStorage.clickcount) {
+				 	sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+	  	}
+			else {
+				sessionStorage.clickcount = 1;
+			 }
+
+	mesazhi = "\n Ju keni vleresuar faqen tone " + sessionStorage.clickcount + " here ne kete sesion.";
+
+	}
+	else {
+	 mesazhi = " \nNa vjen keq por shfletuesi juaj nuk e perkrah web storage";
+	 }
+}
