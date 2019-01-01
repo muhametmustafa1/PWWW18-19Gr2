@@ -13,6 +13,7 @@
     margin-left: auto;
     border: 2px solid gray;
     margin-left: 10px;
+    position: relative;
 }
 
 .allSeries:hover {
@@ -240,4 +241,15 @@ table {
     padding: 10px;
     border: 1px solid #aaaaaa;
     float: right;
+}
+
+#seriePopup {
+    position: absolute;
+    width: 380px;
+    height: 400px;
+    background-color: red;
+    top: 0px;
+    z-index: 1;
+    left: 290px;
+    display: none;
 }

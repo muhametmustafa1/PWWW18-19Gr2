@@ -43,7 +43,7 @@
 
           </div>
         </td>
-        <td><div class="allSeries" id="gameOfThrones">
+        <td><div class="allSeries gameOfThrones1" id="gameOfThrones">
               <div class="seriesThumbnails">
                 <img src="seriesThumbnails/got.jpg" width="280px" height="400px" alt="Nuk u gjet fotoja e serialit 2">
               </div>
@@ -63,9 +63,13 @@
                   </select>
                 </div>
 
+            <div id="seriePopup" class="gameOfThrones1">
+
+            </div>
               </div>
 
           </div>
+
         </td>
           <td><div class="allSeries" id="bigBangTheory">
               <div class="seriesThumbnails">
@@ -347,6 +351,7 @@
   	<script type="text/javascript" src="js\siteFooter.js">
   	</script>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
 
 	var modal = document.getElementById('myModal');
@@ -384,6 +389,16 @@
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
     }
+
+
+    $( "#gameOfThrones" ).mouseover(function() {
+        $("#seriePopup").css("display", "block");
+    });
+
+    $( "#gameOfThrones" ).mouseleave(function() {
+        $("#seriePopup").css("display", "none");
+    });
+
 	</script>
   <script src="js\formValidationSeries.js">
 
