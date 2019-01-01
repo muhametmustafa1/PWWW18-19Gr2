@@ -518,7 +518,7 @@
 
 <span >
   <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
-  <button name="jqButton">Te dhena shtese</button>
+  <button id="jqButton">Te dhena shtese</button>
 </span>
 
 </div>
@@ -592,6 +592,13 @@ $(document).ready(function(){
   });
 });
 
+//Perdorimi i metodes set, kur klikojme ne buton ia nderrojme tekstin e tij
+$(document).ready(function(){
+    $("#jqButton").mouse(function(){
+      $(this).text("JQuery Button");
+    });
+
+});
 
 
 </script>
