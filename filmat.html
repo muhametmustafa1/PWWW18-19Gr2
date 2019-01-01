@@ -606,7 +606,7 @@ $(document).ready(function(){
     //metoda after
     $("#jqButton").dblclick(function(){
         if(i==1) {
-          $(this).after("Ky buton sherben per te treguar disa nga vetite e jQuery!");
+          $(this).after('<p id="shtese">Ky buton sherben per te treguar disa nga vetite e jQuery!<p>');
           i=i+1;
         }
     });
@@ -623,6 +623,7 @@ $(document).ready(function(){
         $("#stafi").remove();
         $("#largo").remove();
         $("#jqButton").remove();
+        $("#shtese").remove()
         $(this).remove();
       });
     });

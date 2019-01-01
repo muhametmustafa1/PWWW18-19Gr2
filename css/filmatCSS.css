@@ -314,10 +314,32 @@ margin-top: 400px;
 	border-radius: 2px;
 	font-family: monospace;
 	font-size: 1.2em;
+	text-decoration: none;
 }
 
 #informacion span a:hover {
 	background-color: black;
 	color:white;
 	font-weight: bold;
+}
+
+#informacion span button {
+	background-color: #888888;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	padding: 3px 5px;
+	font-family: monospace;
+	font-size: 1.1em;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#informacion span button:hover {
+		background-color: #95a60a;
+}
+#informacion #largoGjithcka {
+	background-color: red;
+	color:white;
+	font-size: 1em;
+	padding: 2px;
 }
