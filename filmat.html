@@ -522,6 +522,7 @@
 </div>
 
 <span >
+  <a id = "largoGjithcka" href="javascript:void(0)">Largo gjithçka!</a> <br>
   <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
   <button id="jqButton">Te dhena shtese</button>
 </span>
@@ -610,7 +611,7 @@ $(document).ready(function(){
     //metoda after
     $("#jqButton").dblclick(function(){
         if(i==1) {
-          $(this).after("Ky buton sherben per te treguar disa nga vetite e jQuery!");
+          $(this).after('<p id="shtese">Ky buton sherben per te treguar disa nga vetite e jQuery!<p>');
           i=i+1;
         }
     });
@@ -621,6 +622,16 @@ $(document).ready(function(){
   });
 });
 
+    //Metoda remove
+    $(document).ready(function(){
+      $("#largoGjithcka").click(function(){
+        $("#stafi").remove();
+        $("#largo").remove();
+        $("#jqButton").remove();
+        $("#shtese").remove()
+        $(this).remove();
+      });
+    });
 
 </script>
 
