@@ -187,6 +187,7 @@ table .allMovies a:hover{
 	padding: 4px;
 	border-radius: 10px;
 	background-color: #95a60a;
+	cursor: pointer;
 }
 .formulari fieldset input[type="text"] {
 	font-family: "Trebuchet MS";
@@ -234,6 +235,7 @@ table .allMovies a:hover{
 	border-radius: 5px;
 	background-color: #354EF2;
 	color: white;
+	cursor: pointer;
 
 }
 #forma fieldset input[type="text"] {
