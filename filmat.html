@@ -518,6 +518,7 @@
 
 <span >
   <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
+  <button name="jqButton">Te dhena shtese</button>
 </span>
 
 </div>
@@ -572,7 +573,9 @@ $(document).ready(function(){
       if(shfaqur){
         $(this).html("Shfaqi perseri");
         $("#stafi").hide(2000 , function(){
-          alert("Largimi i te dhenave u krye!");
+          alert("Largimi i te dhenave u krye!" +"\n"
+        +  "Teksti i marre permes jQuery" + "\n"
+        + $("ol").text());
         });
         shfaqur = false;
       }
@@ -580,7 +583,9 @@ $(document).ready(function(){
     else{
       $(this).html("Largo te dhenat e stafit");
       $("#stafi").show(2000, function(){
-        alert("Shfaqja e te dhenave u krye!");
+        alert("Shfaqja e te dhenave u krye!" + "\n"
+        + "HTML kodi i marre permes jQuery" + "\n"
+        + $("ol").html()); //Metoda get
       });
       shfaqur = true;
     }
