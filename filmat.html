@@ -592,12 +592,28 @@ $(document).ready(function(){
   });
 });
 
-//Perdorimi i metodes set, kur klikojme ne buton ia nderrojme tekstin e tij
 $(document).ready(function(){
+  
+  var i=1;
+
+  //metoda set
     $("#jqButton").click(function(){
       $(this).text("JQuery Button");
     });
 
+    //Me poshte perdorim metodat Add
+    //metoda after
+    $("#jqButton").dblclick(function(){
+        if(i==1) {
+          $(this).after("Ky buton sherben per te treguar disa nga vetite e jQuery!");
+          i=i+1;
+        }
+    });
+
+  // metoda append
+  $("#largo").mouseover(function(){ //Mbajme mausin te shtypur
+      $(this).append("(Ekipi CubiTV)");
+  });
 });
 
 
