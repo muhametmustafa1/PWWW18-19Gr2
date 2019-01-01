@@ -517,6 +517,7 @@
 </div>
 
 <span >
+  <a id = "largoGjithcka" href="javascript:void(0)">Largo gjithçka!</a> <br>
   <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
   <button id="jqButton">Te dhena shtese</button>
 </span>
@@ -593,7 +594,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  
+
   var i=1;
 
   //metoda set
@@ -616,6 +617,15 @@ $(document).ready(function(){
   });
 });
 
+    //Metoda remove
+    $(document).ready(function(){
+      $("#largoGjithcka").click(function(){
+        $("#stafi").remove();
+        $("#largo").remove();
+        $("#jqButton").remove();
+        $(this).remove();
+      });
+    });
 
 </script>
 
