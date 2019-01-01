@@ -115,7 +115,6 @@ table {
     font-size: 15px;
     margin-left: 5px;
 }
-
 .Element {
     text-align: justify;
     width: 21% !important;
@@ -150,7 +149,7 @@ table {
 }
 
 .sugjerime h3 {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: "Helvetica", Arial,  Trebuchet MS, sans-serif;
 }
 
 .modal {
