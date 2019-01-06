@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4aadf0e-a343-4412-98c7-cd520e13e335" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/serialatCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/serialatCss.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serialet.html" beforeDir="false" afterPath="$PROJECT_DIR$/serialet.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -36,9 +37,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
+          <entry key="css" value="9" />
           <entry key="htaccess" value="1" />
-          <entry key="html" value="27" />
+          <entry key="html" value="28" />
           <entry key="jpg" value="1" />
           <entry key="js" value="2" />
           <entry key="manifest" value="1" />
@@ -46,8 +47,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="27" />
+          <entry key="CSS" value="9" />
+          <entry key="HTML" value="28" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -55,20 +56,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1886" />
-          <entry key="html" value="2360" />
+          <entry key="css" value="1906" />
+          <entry key="html" value="2381" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1886" />
-          <entry key="HTML" value="2360" />
+          <entry key="CSS" value="1906" />
+          <entry key="HTML" value="2381" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serialet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="240" column="22" selection-start-line="240" selection-start-column="22" selection-end-line="240" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/serialatCss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css-library/verticallyRotating.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="1700">
               <caret line="670" column="29" lean-forward="true" selection-start-line="670" selection-start-column="29" selection-end-line="670" selection-end-column="29" />
             </state>
           </provider>
@@ -114,6 +133,7 @@
       <find>k</find>
       <find>all</find>
       <find>popu</find>
+      <find>cate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,17 +258,18 @@
       <workItem from="1546046694803" duration="2812000" />
       <workItem from="1546117754714" duration="1982000" />
       <workItem from="1546310998843" duration="5450000" />
-      <workItem from="1546804049229" duration="4217000" />
+      <workItem from="1546804049229" duration="5269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56231000" />
+    <option name="totallyTimeSpent" value="57283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25709608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25709608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,7 +281,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -332,20 +353,6 @@
     <entry file="file://$PROJECT_DIR$/cache.manifest">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/serialatCss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="269" column="13" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serialet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="152" column="20" lean-forward="true" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gameControllers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -360,6 +367,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filmat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="670" column="29" lean-forward="true" selection-start-line="670" selection-start-column="29" selection-end-line="670" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/css-library/verticallyRotating.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
@@ -367,10 +381,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filmat.html">
+    <entry file="file://$PROJECT_DIR$/css/serialatCss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="670" column="29" lean-forward="true" selection-start-line="670" selection-start-column="29" selection-end-line="670" selection-end-column="29" />
+        <state relative-caret-position="261">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serialet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="240" column="22" selection-start-line="240" selection-start-column="22" selection-end-line="240" selection-end-column="22" />
         </state>
       </provider>
     </entry>
