@@ -573,6 +573,11 @@ lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
   });
 });
 var shfaqur = true;
+
+var staf = document.getElementsByClassName("staf");
+var str = staf[3].textContent;
+var rezMatch = str.match(/Muhamet/i);
+
 $(document).ready(function(){
 
     $("#largo").click(function(){
@@ -580,6 +585,8 @@ $(document).ready(function(){
         $(this).html("Shfaqi perseri");
         $("#stafi").hide(2000 , function(){
           alert("Largimi i te dhenave u krye!" +"\n"
+      +"Ju keni kerkuar teksin Muhamet kurse ne kemi gjetur:" +"\n"
+      + rezMatch + "\n" +"\n"
         +  "Teksti i marre permes jQuery" + "\n"
         + $("ol").text());
         });
