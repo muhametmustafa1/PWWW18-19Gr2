@@ -5,6 +5,7 @@ document.writeln(`<div id="siteFooter">
 				Nota: <input type="range"  id="nota" min ="1" max ="10" class="NewsletterT" value="" />
 				<input type="button" id="myBt" class="NewsletterB" value="Vlereso"  onclick="mesazh()">
 				<p>Per te na derguar email <a  href="mailto:muhametsmustafa1@gmail.com">klikoni ketu>></a></p>
+				<p>Per te provuar lojen tone <a  href="gameControllers.html" target="_blank">klikoni ketu>></a></p>
 			</div>
 			  <br/>
 			Te dhenat per sot: <br>
