@@ -637,6 +637,7 @@ $(document).ready(function(){
         + $("ol").html()); //Metoda get
       });
       shfaqur = true;
+
     }
   });
 });
@@ -661,7 +662,13 @@ $(document).ready(function(){
 
   // metoda append
   $("#largo").mouseover(function(){ //Mbajme mausin te shtypur
-      $(this).append("(Ekipi CubiTV)");
+      var teksti = "Largo te dhenat e stafit(Ekipi CubiTV)";
+
+      if($(this).text() == teksti) {
+
+      } else {
+          $(this).append("(Ekipi CubiTV)");
+      }
   });
 });
 
