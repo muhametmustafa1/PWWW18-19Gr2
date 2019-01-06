@@ -1,9 +1,9 @@
 document.writeln(`
 	<div id="siteHeader" class="zIndex1"> <!-- Pjesa statike -->
-		<link rel="icon" href="images/logo.png" sizes="32x32 48x48" type="image/png">
+		<!--<link rel="icon" href="images/logo.png" sizes="32x32 48x48" type="image/png">-->
 		<link rel="stylesheet" type="text/css" href="css/animation.css">
-		<div class="logo alignleft">
-			<figure class="figureSyle">
+		<div id="logo" class="logo alignleft">
+			<figure class="figureSyle" >
 				  <img src="images/logo.png" width="70px" height="70px" alt="Logo nuk u gjet!" />
 				  <figcaption>Nje vend argetimi per te gjithe</figcaption>
 			</figure>
@@ -11,18 +11,18 @@ document.writeln(`
 		<div class="rightSideBar alignright">
 			<div class="Search alignright marginBotN zIndex1">
 				<link rel="stylesheet" type="text/css" href="css/css-library/simpleSearch.css">
-				<div class="simpleSearch">
+				<div class="simpleSearch" style="margin-top: -15px;">
 					<div class="search__container">
-					    <!--<p class="search__title">
-					        Go ahead, hover over search
-					    </p>-->
-					    <input class="search__input" type="text" placeholder="Search">
+					    <p class="search__title" style="font-size: 20px;">
+					        Forma e kerkimit :) <!--Go ahead, hover over search-->
+					    </p>
+					    <input id="kerko" class="search__input" type="text" placeholder="Kërko">
 					</div>	
 				</div>
 			</div><br /><br />
 
 			<link rel="stylesheet" type="text/css" href="css/css-library/transparent-menu.css">
-			<div id="introMenu" class="menyja alignright zIndex1" style="clear:both;">
+			<div id="introMenu" class="menyja zIndex1" style="clear:both;">
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="liveStreaming.html">Live Streaming</a>
@@ -50,4 +50,5 @@ document.writeln(`
 				</ul>
 			</div>
 		</div>
-	</div>`);
+	</div><script type="text/javascript" src="js&#92;searchJS.js"></script>`);
+	
