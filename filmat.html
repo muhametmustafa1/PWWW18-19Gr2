@@ -531,6 +531,7 @@
 </div>
 
 //Skripta per ti bere shkronjat me te medha, metoda replace
+//si dhe per te testuar metodat exec dhe test te regEx
 <script>
 var butoni=document.getElementById("replaceButton");
 butoni.addEventListener("click", ndrysho);
@@ -549,8 +550,16 @@ else {
   document.getElementById("perberjaStafit").innerHTML = rez;
   ndryshuar = false;
   }
-
 }
+
+  butoni.addEventListener("mousedown", metodatRE);
+
+  function metodatRE() {
+
+  var obj = /TV/.exec("CubiTV- Platforma me e mire ne vend");
+alert("Eshte gjetur " + obj[0] + " ne poziten " + obj.index + " ne tekstin: " + obj.input);
+
+  }
 
 </script>
 
