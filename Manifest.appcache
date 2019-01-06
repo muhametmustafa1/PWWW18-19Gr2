@@ -1,6 +1,7 @@
 CACHE MANIFEST
 
 # version 0.1
+Cache :
 
 index.html
 filmat.html
@@ -30,5 +31,11 @@ siteFooter.js
 siteHead.js
 siteHeader.js
 siteTFCU.js
+
+Network:
+
+Fallback:
+
+#static.html
 
 "cache.manifest"   [New]  8L, 74C written
