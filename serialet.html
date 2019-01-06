@@ -40,6 +40,15 @@
                   </select>
 
               </div>
+            <div id="seriePopup1" class="seriePopup">
+                <h4 class="textFont">Friends - 8.9 IMDB</h4>
+                <p class="textFont">Three young men and three young women -- of the BFF kind --
+                    live in the same apartment complex and face life and love in New York. They're
+                    not above sticking their noses into one another's business and swapping romantic
+                    partners, which always leads to the kind of hilarity average people will never
+                    experience -- especially during breakups.</p>
+                <input type="text" type="button" value="WATCH NOW">
+            </div>
 
           </div>
         </td>
@@ -63,9 +72,14 @@
                   </select>
                 </div>
 
-            <div id="seriePopup" class="gameOfThrones1">
+            <div id="seriePopup" class="seriePopup">
                 <h4 class="textFont">Game of Thrones - 9.5 IMDB</h4>
-                <p class="textFont">George R.R. Martin's best-selling book series "A Song of Ice and Fire" is brought to the screen as HBO sinks its considerable storytelling teeth into the medieval fantasy epic. It's the depiction of two powerful families -- kings and queens, knights and renegades, liars and honest men -- playing a deadly game for control of the Seven Kingdoms of Westeros, and to sit atop the Iron Throne. Martin is credited as a co-executive producer and one of the writers for the series, whose shooting locations include Northern Ireland, Malta, Croatia and Spain.</p>
+                <p class="textFont">George R.R. Martin's best-selling book series "A Song of Ice and Fire" is brought to
+                    the screen as HBO sinks its considerable storytelling teeth into the medieval fantasy epic. It's the
+                    depiction of two powerful families -- kings and queens, knights and renegades, liars and honest men --
+                    playing a deadly game for control of the Seven Kingdoms of Westeros, and to sit atop the Iron Throne.
+                    Martin is credited as a co-executive producer and one of the writers for the series, whose shooting
+                    locations include Northern Ireland, Malta, Croatia and Spain.</p>
                 <input type="text" type="button" value="WATCH NOW">
             </div>
               </div>
@@ -93,6 +107,17 @@
                   </select>
               </div>
 
+              <div id="seriePopup3" class="seriePopup">
+                  <h4 class="textFont">Big Bang Theory - 8.2 IMDB</h4>
+                  <p class="textFont">Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the
+                      California Institute of Technology, may be able to tell everybody more than they want to know about
+                      quantum physics, but getting through most basic social situations, especially ones involving women,
+                      totally baffles them. How lucky, then, that babe-alicious waitress/aspiring actress Penny moves in
+                      next door. Frequently seen hanging out with Leonard and Sheldon are friends and fellow Caltech
+                      scientists Wolowitz and Koothrappali. Will worlds collide? Does Einstein theorize in the woods?</p>
+                  <input type="text" type="button" value="WATCH NOW">
+              </div>
+
           </div>
 
               </div>
@@ -115,6 +140,17 @@
                       <option value="Episodi3">Episodi3</option>
                       <option value="Episodi4">Episodi4</option>
                   </select>
+              </div>
+
+              <div id="seriePopup4" class="seriePopup">
+                  <h4 class="textFont">Big Bang Theory - 8.2 IMDB</h4>
+                  <p class="textFont">Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the
+                      California Institute of Technology, may be able to tell everybody more than they want to know about
+                      quantum physics, but getting through most basic social situations, especially ones involving women,
+                      totally baffles them. How lucky, then, that babe-alicious waitress/aspiring actress Penny moves in
+                      next door. Frequently seen hanging out with Leonard and Sheldon are friends and fellow Caltech
+                      scientists Wolowitz and Koothrappali. Will worlds collide? Does Einstein theorize in the woods?</p>
+                  <input type="text" type="button" value="WATCH NOW">
               </div>
 
           </div>
@@ -399,6 +435,30 @@
 
     $( "#gameOfThrones" ).mouseleave(function() {
         $("#seriePopup").css("display", "none");
+    });
+
+    $( "#friends" ).mouseover(function() {
+        $("#seriePopup1").css("display", "block");
+    });
+
+    $( "#friends" ).mouseleave(function() {
+        $("#seriePopup1").css("display", "none");
+    });
+
+    $( "#bigBangTheory" ).mouseover(function() {
+        $("#seriePopup3").css("display", "block");
+    });
+
+    $( "#bigBangTheory" ).mouseleave(function() {
+        $("#seriePopup3").css("display", "none");
+    });
+
+    $( "#vikings" ).mouseover(function() {
+        $("#seriePopup4").css("display", "block");
+    });
+
+    $( "#vikings" ).mouseleave(function() {
+        $("#seriePopup4").css("display", "none");
     });
 
 	</script>

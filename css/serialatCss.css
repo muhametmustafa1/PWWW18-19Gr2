@@ -243,7 +243,7 @@ table {
     float: right;
 }
 
-#seriePopup {
+.seriePopup {
     position: absolute;
     width: 380px;
     height: 400px;
@@ -256,24 +256,28 @@ table {
     border-radius: 10px;
 }
 
-#seriePopup:hover {
+.seriePopup:hover {
     box-shadow: 0 1px 15px 0 #4CAF50, 0 1px 2px 0 #4CAF50;
 }
 
-#seriePopup h4 {
+.seriePopup h4 {
     color: #4CAF50;
     padding: 10px;
     font-size: 20px
 }
 
-#seriePopup p {
+#seriePopup4 {
+    left: -410px !important;
+}
+
+.seriePopup p {
     padding: 10px;
     color: #494947;
     line-height: 1.5em;
     height: 200px;
 }
 
-#seriePopup input {
+.seriePopup input {
     font-weight: bold;
     margin-top: 100px;
     width: 100%;
@@ -287,6 +291,6 @@ table {
     cursor: pointer;
 }
 
-#seriePopup input:hover {
+.seriePopup input:hover {
     box-shadow: 0 1px 15px 0 #4CAF50, 0 1px 2px 0 #3a3936;
 }
