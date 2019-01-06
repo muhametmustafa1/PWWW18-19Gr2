@@ -10,35 +10,7 @@
     <script src="js\filmatNavBar.js">
     </script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <script>
-    //Perdorimi i funksionit toggle
-      $(document).ready(function(){
-        $("#navbarButtoni").click(function(){
-          $("#a").toggle("2000");
-        });
-      });
-// Perdorimi i vetise slide,
-      $(document).ready(function(){
-        $("#a").mouseleave(function(){ // kur mausi largohet nga menuja,
-          // le te largohet edhe menuja.
-          $(this).slideUp();
-        });
-      });
-      //perdorimi i vetise animate
-      $(document).ready(function(){
-        $(".linqet").mouseover(function(){ // kur mausi vendoset ne njeren nga opsionet
-          $(this).animate({
-            opacity: '0.8',
-            borderTopLeftRadius:'20px',
-            borderTopRightRadius: '20px',
-            borderBottomLeftRadius: '20px',
-            borderBottomRightRadius: '20px',
 
-          }, "slow");
-        });
-      });
-
-    </script>
   </head>
   <body>
 
