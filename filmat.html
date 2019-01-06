@@ -509,7 +509,7 @@
 
     </div>
 <div id="stafi">
-    Stafi jone perbehet nga:
+    <p id="perberjaStafit">  Stafi jone perbehet nga: </p>
     <a id="autoret" href="javascript:void(0)"> Kliko per te pare te dhenat e plota</a>
     <br>
     <br>
@@ -525,9 +525,34 @@
   <a id = "largoGjithcka" href="javascript:void(0)">Largo gjithçka!</a> <br>
   <a id="largo" href="javascript:void(0)">Largo te dhenat e stafit</a>
   <button id="jqButton">Te dhena shtese</button>
+  <button  id="replaceButton">ButoniReplace</button>
 </span>
 
 </div>
+
+//Skripta per ti bere shkronjat me te medha, metoda replace
+<script>
+var butoni=document.getElementById("replaceButton");
+butoni.addEventListener("click", ndrysho);
+var ndryshuar = false;
+function ndrysho () {
+  if(!ndryshuar){
+  var perberjaStafit = document.getElementById("perberjaStafit").innerHTML;
+  var rez = perberjaStafit.replace("Stafi jone perbehet nga", "Stafi jone");
+  document.getElementById("perberjaStafit").innerHTML = rez;
+  ndryshuar = true;
+}
+else {
+
+  var perberjaStafit = document.getElementById("perberjaStafit").innerHTML;
+  var rez = perberjaStafit.replace("Stafi jone", "Stafi jone perbehet nga");
+  document.getElementById("perberjaStafit").innerHTML = rez;
+  ndryshuar = false;
+  }
+
+}
+
+</script>
 
 <script type="text/javascript">
 
@@ -577,6 +602,8 @@ var shfaqur = true;
 var staf = document.getElementsByClassName("staf");
 var str = staf[3].textContent;
 var rezMatch = str.match(/Muhamet/i);
+
+
 
 $(document).ready(function(){
 
