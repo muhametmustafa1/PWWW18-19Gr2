@@ -1,11 +1,8 @@
 CACHE MANIFEST
 
-
-
 # version 0.1
 
-
-
+Cache:
 index.html
 
 filmat.html
@@ -66,7 +63,7 @@ Network :
 index.html
 
 Fallback:
-index.html 
+index.html
 
 
 
