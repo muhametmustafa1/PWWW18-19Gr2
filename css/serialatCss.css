@@ -295,3 +295,23 @@ table {
 .seriePopup input:hover {
     box-shadow: 0 1px 15px 0 #4CAF50, 0 1px 2px 0 #3a3936;
 }
+
+.dataDesList {
+    width: 600px;
+    margin-left: 20px;
+}
+
+.dataDesList dt {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #dddddd;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+dd {
+    color: #dddddd;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #34393d;
+    border-radius: 10px;
+}
