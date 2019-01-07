@@ -17,7 +17,7 @@ document.writeln(`
 					        Forma e kerkimit :) <!--Go ahead, hover over search-->
 					    </p>
 					    <input id="kerko" class="search__input" type="text" placeholder="Kërko">
-					</div>	
+					</div>
 				</div>
 			</div><br /><br />
 
@@ -25,30 +25,39 @@ document.writeln(`
 			<div id="introMenu" class="menyja zIndex1" style="clear:both;">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li><a href="liveStreaming.html">Live Streaming</a>
-						<ul>
-							<li><a>Our Team</a></li>
-							<li><a>Camp Sites</a></li>
-							<li><a>Mission &amp; Vision</a></li>
-							<li><a>Resorces</a></li>
-						</ul></li>
+
 						<li><a href="filmat.html">Filma</a>
 							<ul>
-								<li><a>Activities</a></li>
-								<li><a>Parks</a></li>
-								<li><a>Shops</a></li>
-								<li><a>Events</a></li>
+								<li><a>Premiere</a></li>
+								<li><a>Te Rinj</a></li>
+								<li><a>Me te shikuarit </a></li>
 							</ul>
 						</li>
+
 						<li><a href="serialet.html">Seriale</a>
 							<ul>
-								<li><a>Map</a></li>
-								<li><a>Direction</a></li>
+
+								<li><a>Telenovela</a></li>
+								<li><a>TV Seriale </a></li>
+								<li><a>Drama</a></li>
 							</ul>
 						</li>
-						<li><a href="anime.html">Anime</a></li>
+
+						<li><a href="anime.html">Anime</a>
+							<ul>
+								<li><a>Atraktiv</a></li>
+								<li><a>Inovativ</a></li>
+								<li><a>Edukativ</a></li>
+							</ul>
+						</li>
+
+						<li><a href="liveStreaming.html">Live Streaming</a>
+							<ul>
+								<li><a>NBA</a></li>
+								<li><a>TV SHOWS</a></li>
+								<li><a>SOCCER</a></li>
+							</ul></li>
 				</ul>
 			</div>
 		</div>
 	</div><script type="text/javascript" src="js&#92;searchJS.js"></script>`);
-	
