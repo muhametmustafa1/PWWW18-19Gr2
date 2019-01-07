@@ -105,7 +105,7 @@
                   Category: Drame
               </div>
 
-              <div id="seriePopup4" class="seriePopup">
+              <div id="seriePopup4" class="seriePopupMoveLeft seriePopup">
                   <h4 class="textFont">Vikings - 8.6 IMDB</h4>
                   <p class="textFont">Viking Ragnar Lothbrok is a young farmer and family man who is frustrated
                       by the policies of Earl Haraldson, his local chieftain who sends his Viking raiders east to
@@ -208,6 +208,17 @@
                     Category: Drame
                 </div>
 
+                <div id="seriePopup8" class="seriePopup seriePopupMoveLeft">
+                    <h4 class="textFont">La casa de papel - 8.6 IMDB</h4>
+                    <p class="textFont">A criminal mastermind who goes by "The Professor" has a plan to pull off the
+                        biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain. T
+                        o help him carry out the ambitious plan, he recruits eight people with certain abilities and
+                        who have nothing to lose. The group of thieves take hostages to aid in their negotiations with
+                        the authorities, who strategize to come up with a way to capture The Professor
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=cQYvQIrM1FY"><input type="text" type="button" value="WATCH NOW">   </a>
+                </div>
+
             </div>
 
                 </div>
@@ -226,6 +237,17 @@
                     Category: Drame
                 </div>
 
+                <div id="seriePopup9" class="seriePopup">
+                    <h4 class="textFont">Stranger Things - 8.9 IMDB</h4>
+                    <p class="textFont">It's the fall of 1984, about a year after Will Byers was found, and
+                        he has been plagued by seeing visions of the Upside Down featuring a more dangerous
+                        monster. That leads the boy to see a suspiciously friendly new doctor, with the possibility
+                        that Will's visions are the result of suffering from PTSD. Nancy deals with survivor's
+                        remorse over the death of best friend Barb. Meanwhile, a new sinister entity threatens the
+                        Hawkins residents who survived the year-earlier events.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=XWxyRG_tckY"><input type="text" type="button" value="WATCH NOW">   </a>
+                </div>
             </div>
 
                 </div>
@@ -239,6 +261,20 @@
                 </div>
                 <div class="category textFont">
                     Category: Drame
+                </div>
+
+                <div id="seriePopup10" class="seriePopup">
+                    <h4 class="textFont">House of Cards - 8.8 IMDB</h4>
+                    <p class="textFont">U.S. Rep. Francis Underwood of South Carolina starts out as a ruthless politician
+                        seeking revenge in this Netflix original production. Promised the post of Secretary of State in
+                        exchange for his support, his efforts help to ensure the election of Garrett Walker
+                        to the presidency. But Walker changes his mind before the inauguration, telling Underwood
+                        he's too valuable in Congress. Outwardly, Underwood accepts his marching orders,
+                        but secretly he and his wife Claire, an environmental activist, make a pact to destroy
+                        Walker and his allies. As the series progresses, Underwood ascends through the ranks
+                        of the government -- until his death, at which point Claire gains power.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=ULwUzF1q5w4"><input type="text" type="button" value="WATCH NOW">   </a>
                 </div>
 
             </div>
@@ -255,7 +291,18 @@
                 <div class="category textFont">
                     Category: Drame
                 </div>
-
+                <div id="seriePopup11" class="seriePopup">
+                    <h4 class="textFont">Black Mirror - 8.9 IMDB</h4>
+                    <p class="textFont">Featuring stand-alone dramas -- sharp, suspenseful, satirical tales that
+                        explore techno-paranoia -- "Black Mirror" is a contemporary reworking of
+                        "The Twilight Zone" with stories that tap into the collective unease about
+                        the modern world. Each story features its own cast of unique characters,
+                        including stars like Bryce Dallas Howard ("The Help"), Alice Eve,
+                        Gugu Mbatha-Raw, Tom Cullen and Jerome Flynn ("Game of Thrones").
+                        Joe Wright, Dan Trachtenberg, and James Watkins are among the featured directors.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=XM0xWpBYlNM"><input type="text" type="button" value="WATCH NOW">   </a>
+                </div>
             </div>
 
                 </div>
@@ -270,7 +317,19 @@
                 <div class="category textFont">
                     Category: Drame
                 </div>
-
+                <div id="seriePopup12" class="seriePopup seriePopupMoveLeft">
+                    <h4 class="textFont">Peaky Blinders - 8.9 IMDB</h4>
+                    <p class="textFont">Featuring stand-alone dramas -- sharp, suspenseful, satirical
+                        tales that explore techno-paranoia -- "Black Mirror" is a contemporary
+                        reworking of "The Twilight Zone" with stories that tap into the collective
+                        unease about the modern world. Each story features its own cast of
+                        unique characters, including stars like Bryce Dallas Howard ("The Help")
+                        , Alice Eve, Gugu Mbatha-Raw, Tom Cullen and Jerome Flynn
+                        ("Game of Thrones"). Joe Wright, Dan Trachtenberg, and James
+                        Watkins are among the featured directors.
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=oVzVdvGIC7U"><input type="text" type="button" value="WATCH NOW">   </a>
+                </div>
             </div>
 
                 </div>
@@ -404,6 +463,46 @@
 
     $( "#karadayi" ).mouseleave(function() {
         $("#seriePopup7").css("display", "none");
+    });
+
+    $( "#laCasaDePapel" ).mouseover(function() {
+        $("#seriePopup8").css("display", "block");
+    });
+
+    $( "#laCasaDePapel" ).mouseleave(function() {
+        $("#seriePopup8").css("display", "none");
+    });
+
+    $( "#strangerThings" ).mouseover(function() {
+        $("#seriePopup9").css("display", "block");
+    });
+
+    $( "#strangerThing9" ).mouseleave(function() {
+        $("#seriePopup9").css("display", "none");
+    });
+
+    $( "#houseOfCards" ).mouseover(function() {
+        $("#seriePopup10").css("display", "block");
+    });
+
+    $( "#houseOfCards" ).mouseleave(function() {
+        $("#seriePopup10").css("display", "none");
+    });
+
+    $( "#blackMirror" ).mouseover(function() {
+        $("#seriePopup11").css("display", "block");
+    });
+
+    $( "#blackMirror" ).mouseleave(function() {
+        $("#seriePopup11").css("display", "none");
+    });
+
+    $( "#peakyBlinders" ).mouseover(function() {
+        $("#seriePopup12").css("display", "block");
+    });
+
+    $( "#peakyBlinders" ).mouseleave(function() {
+        $("#seriePopup12").css("display", "none");
     });
 	</script>
   <script src="js\formValidationSeries.js">
