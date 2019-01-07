@@ -530,8 +530,8 @@
 
 </div>
 
-//Skripta per ti bere shkronjat me te medha, metoda replace
-//si dhe per te testuar metodat exec dhe test te regEx
+<!--//Skripta per ti bere shkronjat me te medha, metoda replace
+//si dhe per te testuar metodat exec dhe test te regEx -->
 <script>
 var butoni=document.getElementById("replaceButton");
 butoni.addEventListener("click", ndrysho);
@@ -552,12 +552,24 @@ else {
   }
 }
 
-  butoni.addEventListener("mousedown", metodatRE);
+  butoni.addEventListener("dblclick", metodatRE);
 
   function metodatRE() {
+    var mesazhi;
+    var perberjaStafit = document.getElementById("perberjaStafit").innerHTML;
+    var gjetur = /Stafi/.test(perberjaStafit);
+
+    if(gjetur){
+      mesazhi= 'Teksti "Stafi" ekziston ne stringun ' + perberjaStafit  ;
+    }
+
+    else {
+      mesazhi= 'Teksti "Stafi" nuk ekziston ne stringun ' + perberjaStafit  ;
+    }
 
   var obj = /TV/.exec("CubiTV- Platforma me e mire ne vend");
-alert("Eshte gjetur " + obj[0] + " ne poziten " + obj.index + " ne tekstin: " + obj.input);
+alert("Eshte gjetur " + obj[0] + " ne poziten " + obj.index + " ne tekstin: " + obj.input + "\n"
++ mesazhi );
 
   }
 
