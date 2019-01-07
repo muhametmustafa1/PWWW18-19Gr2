@@ -17,17 +17,17 @@ document.writeln(`<div id="siteFooter">
 
 			<div class="Element leftN">
 				<h4>Filmat</h4>
-				<p>Filmat me te shikuar ne kinemate boteror vijne neper shtepite tuaja ekskluzivisht ne Cubi Tv .</p>
+				<p>Filmat me te shikuar ne kinemate boteror vijne neper shtepite tuaja ekskluzivisht ne CubiTV.</p>
 			</div>
 
 			<div class="Element rightN">
 				<h4>LiveStreaming</h4>
-				<p>Faqja e pare ne Kosove dhe me gjere me linka te cilet punojne! Vendi ku mund te gjeni linka te cilet nuk bllokohen vazhdimisht dhe pa ads .</p>
+				<p>Faqja e pare ne Kosove dhe me gjere me linka te cilet punojne! Vendi ku mund te gjeni linka te cilet nuk bllokohen vazhdimisht dhe pa ads.</p>
 			</div>
 
 			<div class="Element centerN">
 				<h4>Serialet</h4>
-				<p>Deshironi episodat e fundit te serialeve me te reja !? At'here kjo eshte faqja e duhur te cilen ju po kerkoni. Nje faqe me serialet me te mira te kohes.</p>
+				<p>Deshironi episodat e fundit te serialeve me te reja? Atehere kjo eshte faqja e duhur te cilen ju po kerkoni. Nje faqe me serialet me te mira te kohes.</p>
 			</div>
 		</div>
 
