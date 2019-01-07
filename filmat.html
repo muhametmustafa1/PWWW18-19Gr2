@@ -459,7 +459,7 @@
 
 
       <div id="forma">
-          <form name="forma1" action="#" method="get" onsubmit="return validoFormen1()">
+          <form name="forma1" action="#" method="get" onsubmit="return validoFormen1()" autocomplete="on">
             <fieldset>
               <legend>CubiTV Premium Llogari</legend>
                 <p> Kyçuni ketu per ta shfrytezuar <br>
@@ -473,7 +473,8 @@
                 <input  type="text" name="username1" >
                 <br>
                 <label>Shkruani fjalekalimin:</label> <br>
-                <input  type="password"  name="password1">
+                <input  type="password"  name="password1" pattern="(?=.*\d).{8,}"
+                title="fjalekalimi duhet te permbaje te pakten nje numer dhe te pakten 8 karaktere">
                   <br> <br>
 
               <input type="submit" name="butoni1" value="Kyçu">
