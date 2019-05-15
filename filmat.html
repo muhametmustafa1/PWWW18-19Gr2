@@ -22,10 +22,7 @@
         <!--<script type="text/javascript" src="js\siteTFCU.js">
         </script>-->
 
-        <audio id="player" autoplay loop>
-        		<source src="mp3Files\track02.mp3" type="audio/mpeg">
-        	Your browser does not support the audio element.
-        </audio>
+       
       </header>
 
       <div id="navbar">
@@ -434,14 +431,14 @@
           <div id="informacion">
 
 
-        <form class="formulari" action="#" method="get" >
+        <form name ="formulari" class="formulari" action="php\formulariPHP.php" method="get" >
             <fieldset>
               <legend>Na ndihmoni ne permiresimin e faqes ketu: </legend>
           <p> Nese keni ndonje film qe e pelqeni, mirepo nuk e gjeni ketu
             na propozoni me poshte: </p> <br>
             <label>Titulli i filmit:</label> <br>
             <input type="text" name="titulli_i_filmit" placeholder="Shkruani titullin ketu" required>
-            <br>
+           <!-- <br>
             <label > <br>A jeni te pakten 18 vjecar?</label>
             <br>
             <label >PO</label>
@@ -449,8 +446,8 @@
             <br>
             <label>JO</label>
             <input type="radio" name="mosha" value="Jo">
-            <br> <br>
-            <button type="submit" name="button">Kliko ketu</button>
+            <br> <br>   -->
+            <button type="submit" name="button">Kliko ketu</button> 
 
           </fieldset>
         </form >
@@ -459,7 +456,7 @@
 
 
       <div id="forma">
-          <form name="forma1" action="#" method="get" onsubmit="return validoFormen1()" autocomplete="on">
+      <form name="forma1" action="php\Form1PHP.php" method="get" autocomplete="on"><!-- onsubmit="return validoFormen1()"--> >
             <fieldset>
               <legend>CubiTV Premium Llogari</legend>
                 <p> Kyçuni ketu per ta shfrytezuar <br>
@@ -473,8 +470,8 @@
                 <input  type="text" name="username1" >
                 <br>
                 <label>Shkruani fjalekalimin:</label> <br>
-                <input  type="password"  name="password1" pattern="(?=.*\d).{8,}"
-                title="fjalekalimi duhet te permbaje te pakten nje numer dhe te pakten 8 karaktere">
+                <input  type="password"  name="password1"> <!-- pattern="(?=.*\d).{8,}" 
+                title="fjalekalimi duhet te permbaje te pakten nje numer dhe te pakten 8 karaktere"> -->
                   <br> <br>
 
               <input type="submit" name="butoni1" value="Kyçu">
@@ -482,7 +479,7 @@
           </form>
                   <hr>
 
-          <form name="forma2" action="#" method="get" onsubmit="return validoFormen2()">
+          <form name="forma2" action="php/Form2PHP.php" method="get"> <!--onsubmit="return validoFormen2()">--> 
             <fieldset>
               <legend>Nuk keni llogari ne CubiTV</legend>
                   <p>Deshironi te hapni llogari te re<em>?</em></p> <br>
@@ -515,7 +512,6 @@
     <br>
     <br>
     <ol>
-      <li class="staf"></li>
       <li class="staf"></li>
       <li class="staf"></li>
       <li class="staf"></li>
@@ -591,38 +587,34 @@ Person.prototype.te_dhenat = function() {
 };
 
 
-var egzoni = new Person("Egzon", "Aliu", "Shkenca kompjuterike, FSHMN", "Lipjan");
-var arditi = new Person("Ardit", "Avdylaj", "Shkenca kompjuterike, FSHMN", "Istog");
-var rinori = new Person("Rinor", "Ajeti", "Shkenca kompjuterike, FSHMN", "Prishtine");
+var medina = new Person("Medina", "Ahmeti", "Shkenca kompjuterike, FSHMN", "Lipjan");
+var ardi = new Person("Ardian", "Hoti", "Shkenca kompjuterike, FSHMN", "Lipjan");
 var meti = new Person("Muhamet",  "Mustafa", "Shkenca kompjuterike, FSHMN", "Mitrovice");
 
 var lista = document.getElementsByClassName('staf') ;
 
-lista[0].innerHTML = egzoni.emri + " " +egzoni.mbiemri;
-lista[1].innerHTML = arditi.emri + " " +arditi.mbiemri;
-lista[2].innerHTML = rinori.emri + " " +rinori.mbiemri;
-lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
+lista[0].innerHTML = medina.emri + " " +medina.mbiemri;
+lista[1].innerHTML = ardi.emri + " " +ardi.mbiemri;
+lista[2].innerHTML = meti.emri + " " + meti.mbiemri;
 
   //Perdorimi i eventeve me jQuery
   $(document).ready(function(){
   $("#autoret").click(function(){
-    lista[0].innerHTML = egzoni.te_dhenat();
-    lista[1].innerHTML = arditi.te_dhenat();
-    lista[2].innerHTML = rinori.te_dhenat();
-    lista[3].innerHTML = meti.te_dhenat();
+    lista[0].innerHTML = medina.te_dhenat();
+    lista[1].innerHTML = ardi.te_dhenat();
+    lista[2].innerHTML = meti.te_dhenat();
   });
   //Largimi i te dhenave shtese pasi te klikohet dy here
   $("#autoret").dblclick(function(){ //double click
-    lista[0].innerHTML = egzoni.emri + " " +egzoni.mbiemri;
-    lista[1].innerHTML = arditi.emri + " " +arditi.mbiemri;
-    lista[2].innerHTML = rinori.emri + " " +rinori.mbiemri;
-    lista[3].innerHTML = meti.emri + " " + meti.mbiemri;
+    lista[0].innerHTML = medina.emri + " " +medina.mbiemri;
+    lista[1].innerHTML = ardi.emri + " " +ardi.mbiemri;
+    lista[2].innerHTML = meti.emri + " " +meti.mbiemri;
   });
 });
 var shfaqur = true;
 
 var staf = document.getElementsByClassName("staf");
-var str = staf[3].textContent;
+var str = staf[2].textContent;
 var rezMatch = str.match(/Muhamet/i);
 
 
