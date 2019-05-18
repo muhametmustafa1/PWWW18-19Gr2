@@ -12,10 +12,11 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
       //Skripta per JQuery!!
       </script>
-
     </head>
     <body>
-
+      <?php include 'php/NumruesiSeesion.php';
+      echo $mesazhi;
+      ?>
       <header><!-- Pjesa statike -->
         <script type="text/javascript" src="js\siteHeader.js?v=filmat">
         </script>
@@ -698,7 +699,8 @@ $(document).ready(function(){
           <footer><!-- Pjesa statike -->
           	<script type="text/javascript" src="js\siteFooter.js">
           	</script>
-          <?php include 'NumruesiSeesion.php';?>
+
+
           </footer>
     </body>
   </html>
