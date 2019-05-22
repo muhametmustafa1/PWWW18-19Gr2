@@ -1,11 +1,14 @@
 <?php
 session_start();
-if(isset($_SESSION['numruesi'])){
-$_SESSION['numruesi']+=1;
+if(!isset($_SESSION['numri']) && !isset($_SESSION['thanks'])){
+$_SESSION["thanks"] = "Faleminderit që na vizituat!";
+$_SESSION["numri"] = 0;
 }
 else {
-$_SESSION['numruesi']=1;
+  $_SESSION['numri'] += 1;
 }
-$mesazhi="ju keni vizituar faqen ". $_SESSION['numruesi'] ." ne kete session";
-
+if($_SESSION['numri']>=10){
+  $_SESSION["thanks"] = "Faleminderit që na vizituat mbi 10 here!";
+}
+$mesazhi = "Ju na keni vizituar " .$_SESSION['numri']. " here". "<br>". $_SESSION['thanks'];
 ?>

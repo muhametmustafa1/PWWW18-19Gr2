@@ -14,7 +14,7 @@
       </script>
     </head>
     <body>
-    
+
 
       <header><!-- Pjesa statike -->
         <script type="text/javascript" src="js\siteHeader.js?v=filmat">
@@ -698,18 +698,8 @@ $(document).ready(function(){
           <footer><!-- Pjesa statike -->
           	<script type="text/javascript" src="js\siteFooter.js">
           	</script>
-            <?php
-            session_start();
-            $_SESSION["thanks"] = "Faleminderit që na vizituat!";
-            // Echo session variables that were set on previous page
-            echo " " . $_SESSION["thanks"] ;
 
-            ?>
-            <?php
-// to change a session variable, just overwrite it
-$_SESSION["thanks"] = "Thanks for visitng us!";
-echo ($_SESSION);
-?>
+
 
           </footer>
     </body>

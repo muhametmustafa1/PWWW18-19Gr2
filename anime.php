@@ -14,7 +14,7 @@
   </head>
   <body>
     <?php include 'php/NumruesiSeesion.php';
-    echo $mesazhi;
+    echo "<h2> $mesazhi </h2>";
     ?>
     <header><!-- Pjesa statike -->
       <script type="text/javascript" src="js\siteHeader.js">
