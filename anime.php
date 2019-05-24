@@ -178,7 +178,28 @@
     </table>
 
 </div>
+<div id="forma">
+<form name="forma3" action="php\exception.php" method="get" autocomplete="on">
+      <fieldset>
+        <legend>CubiTV Premium Llogari</legend>
+          <p> Kyçuni ketu per ta shfrytezuar <br>
+            <em>Premium</em> llogarine e CubiTV </p>
+          <br>
+          <p> Gjithashtu mund ta shfrytezoni dhe <br>
+          <em style="color:green;font-variant:small-caps;">Standard</em>
+          llogarine e CubiTV</p>
+          <br>
+          <label>Shkruani username tuaj:</label> <br>
+          <input  type="text" name="username_1" >
+          <br>
+          <label>Shkruani fjalekalimin:</label> <br>
+          <input  type="password"  name="password_1"> 
+            <br> <br>
 
+        <input type="submit" name="butoni1" value="Kyçu">
+      </fieldset>
+    </form>
+  </div>
 
   <footer><!-- Pjesa statike -->
     	<script type="text/javascript" src="js\siteFooter.js">
