@@ -60,4 +60,5 @@ document.writeln(`
 				</ul>
 			</div>
 		</div>
-	</div><script type="text/javascript" src="js&#92;searchJS.js"></script>`);
+	</div> <!--<script type="text/javascript" src="js&#92;searchJS.js"></script> -->
+	`);

@@ -17,7 +17,7 @@
 
 
       <header><!-- Pjesa statike -->
-        <script type="text/javascript" src="js\siteHeader.js?v=filmat">
+        <script type="text/javascript" src="js\siteHeader.js">
         </script>
         <!--<script type="text/javascript" src="js\siteTFCU.js">
         </script>-->
@@ -456,7 +456,7 @@
 
 
       <div id="forma">
-      <form name="forma1" action="php\Form1PHP.php" method="get" autocomplete="on"><!-- onsubmit="return validoFormen1()"--> >
+      <form name="forma1" action="php\Form1PHP.php" method="post"  onsubmit="return validoFormen1()">
             <fieldset>
               <legend>CubiTV Premium Llogari</legend>
                 <p> Kyçuni ketu per ta shfrytezuar <br>
@@ -479,7 +479,7 @@
           </form>
                   <hr>
 
-          <form name="forma2" action="php/Form2PHP.php" method="get"> <!--onsubmit="return validoFormen2()">-->
+          <form name="forma2" action="php/Form2PHP.php" method="post" onsubmit="return validoFormen2()">
             <fieldset>
               <legend>Nuk keni llogari ne CubiTV</legend>
                   <p>Deshironi te hapni llogari te re<em>?</em></p> <br>
