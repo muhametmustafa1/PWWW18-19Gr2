@@ -431,7 +431,7 @@
           <div id="informacion">
 
 
-        <form name ="formulari" class="formulari" action="php\formulariPHP.php" method="get" >
+        <form name ="formulari" class="formulari" action="php\formulariPHP.php" method="post" >
             <fieldset>
               <legend>Na ndihmoni ne permiresimin e faqes ketu: </legend>
           <p> Nese keni ndonje film qe e pelqeni, mirepo nuk e gjeni ketu

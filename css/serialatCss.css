@@ -192,7 +192,7 @@ table {
   .modal-content form {
       margin-top: 20px;
   }
-  form button {
+   input[name="butoni"] {
     background-color: red;
     color: white;
     font-family: "Trebuchet MS";
@@ -207,7 +207,7 @@ table {
     margin-top: 10px;
   }
 
-  form button:hover {
+   input[name="butoni"]:hover {
     background-color: #700000;
     cursor: pointer;
   }

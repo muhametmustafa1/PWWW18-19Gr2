@@ -353,17 +353,17 @@
 	  <div class="modal-content">
 		<span class="close">&times;</span>
         <h3 class="textFont">Sugjero nje serial</h3>
-        <form action="#" method="get" id="formaSugjero"  >
+        <form action="php/shtoSeriale.php" method="post" id="formaSugjero"  onsubmit="validoFormen3()">
             <div class="inputsForSugjero textFont">
-                <label>Emri i serialit</label>: <input type="text" id="emriSer"><label for=""><br>
+                <label>Emri i serialit</label>: <input name ="emri"type="text" id="emriSer"><label for=""><br>
             </div>
             <div class="inputsForSugjero textFont">
-                <label>Numri i sezonit</label>: <input type="number" id="nrSez" min="1"><label for=""><br>
+                <label>Numri i sezonit</label>: <input name ="nrSez" type="number" id="nrSez" min="1"><label for=""><br>
             </div>
             <div class="inputsForSugjero textFont">
-                <label>Numri i episodit</label>: <input type="number" id="nrEp" min="1"><label for="">
+                <label>Numri i episodit</label>: <input name ="nrEp" type="number" id="nrEp" min="1"><label for="">
             </div>
-          <button onclick="validoFormen3()" type="button" name="button">Sugjero</button>
+          <input  type="submit" name="butoni" value="Sugjero">
         </form>
           <div id="leftDiv" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
           <div id="rightDiv">
